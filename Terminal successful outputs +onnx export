@@ -1,0 +1,523 @@
+(env_9) [gr719@ee-beholder0 triple-wins-master]$ python onnx_2.py --model brn --trained_path /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/branch_adv_max/mnist_smallcnn/checkpoint_00200.pth.tar --save_name test_out
+python: can't open file '/home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/onnx_2.py': [Errno 2] No such file or directory
+(env_9) [gr719@ee-beholder0 triple-wins-master]$ cd mnist/
+(env_9) [gr719@ee-beholder0 mnist]$ python onnx_2.py --model brn --trained_path /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/branch_adv_max/mnist_smallcnn/checkpoint_00200.pth.tar --save_name test_out
+Traceback (most recent call last):
+  File "/home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/onnx_2.py", line 25, in <module>
+    from tools import *
+ModuleNotFoundError: No module named 'tools'
+(env_9) [gr719@ee-beholder0 mnist]$ python onnx_2.py --model brn --trained_path /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/branch_adv_max/mnist_smallcnn/checkpoint_00200.pth.tar --save_name test_out
+Traceback (most recent call last):
+  File "/home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/onnx_2.py", line 45, in <module>
+    import onnx
+ModuleNotFoundError: No module named 'onnx'
+(env_9) [gr719@ee-beholder0 mnist]$ conda deactivate
+(base) [gr719@ee-beholder0 mnist]$ conda activate env_1
+(env_1) [gr719@ee-beholder0 mnist]$ python onnx_2.py --model brn --trained_path /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/branch_adv_max/mnist_smallcnn/checkpoint_00200.pth.tar --save_name test_out
+1
+2
+2b
+Traceback (most recent call last):
+  File "onnx_2.py", line 211, in <module>
+    main()
+  File "onnx_2.py", line 204, in main
+    args = msd_args()
+NameError: name 'msd_args' is not defined
+(env_1) [gr719@ee-beholder0 mnist]$ python onnx_2.py --model brn --trained_path /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/branch_adv_max/mnist_smallcnn/checkpoint_00200.pth.tar --save_name test_out
+1
+2
+2b
+usage: onnx_2.py [-h] [--dataset {MNIST}] [--workers N] [--iters ITERS]
+                 [--start-iter START_ITER] [--batch-size BATCH_SIZE] [--lr LR]
+                 [--momentum MOMENTUM] [--weight-decay WEIGHT_DECAY]
+                 [--print-freq PRINT_FREQ] [--resume RESUME] [--pretrained]
+                 [--step-ratio STEP_RATIO] [--warm-up]
+                 [--save-folder SAVE_FOLDER] [--eval-every EVAL_EVERY]
+                 [--attack_algo ATTACK_ALGO] [--attack_eps ATTACK_EPS]
+                 [--attack_gamma ATTACK_GAMMA]
+                 [--attack_adv_iter ATTACK_ADV_ITER]
+                 [--attack_randinit ATTACK_RANDINIT]
+                 [--defend_algo DEFEND_ALGO] [--defend_eps DEFEND_EPS]
+                 [--defend_gamma DEFEND_GAMMA]
+                 [--defend_adv_iter DEFEND_ADV_ITER]
+                 [--defend_randinit DEFEND_RANDINIT]
+                 {train,test} ARCH
+onnx_2.py: error: argument cmd: invalid choice: 'brn' (choose from 'train', 'test')
+(env_1) [gr719@ee-beholder0 mnist]$ python onnx_2.py --model brn --trained_path /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/branch_adv_max/mnist_smallcnn/checkpoint_00200.pth.tar --save_name test_out
+1
+2
+2b
+Traceback (most recent call last):
+  File "onnx_2.py", line 211, in <module>
+    main()
+  File "onnx_2.py", line 204, in main
+    args = parse_args()
+  File "/home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/train.py", line 42, in parse_args
+    parser.add_argument('--trained_path', type=path_check,
+NameError: name 'path_check' is not defined
+(env_1) [gr719@ee-beholder0 mnist]$ python onnx_2.py --model brn --trained_path /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/branch_adv_max/mnist_smallcnn/checkpoint_00200.pth.tar --save_name test_out
+3
+1
+2
+2b
+usage: onnx_2.py [-h] [--model {brn,lenet}] [--trained_path TRAINED_PATH]
+                 [--save_name SAVE_NAME] [--dataset {MNIST}] [--workers N]
+                 [--iters ITERS] [--start-iter START_ITER]
+                 [--batch-size BATCH_SIZE] [--lr LR] [--momentum MOMENTUM]
+                 [--weight-decay WEIGHT_DECAY] [--print-freq PRINT_FREQ]
+                 [--resume RESUME] [--pretrained] [--step-ratio STEP_RATIO]
+                 [--warm-up] [--save-folder SAVE_FOLDER]
+                 [--eval-every EVAL_EVERY] [--attack_algo ATTACK_ALGO]
+                 [--attack_eps ATTACK_EPS] [--attack_gamma ATTACK_GAMMA]
+                 [--attack_adv_iter ATTACK_ADV_ITER]
+                 [--attack_randinit ATTACK_RANDINIT]
+                 [--defend_algo DEFEND_ALGO] [--defend_eps DEFEND_EPS]
+                 [--defend_gamma DEFEND_GAMMA]
+                 [--defend_adv_iter DEFEND_ADV_ITER]
+                 [--defend_randinit DEFEND_RANDINIT]
+                 {train,test} ARCH
+onnx_2.py: error: the following arguments are required: cmd, ARCH
+(env_1) [gr719@ee-beholder0 mnist]$ python onnx_2.py --model brn --trained_path /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/branch_adv_max/mnist_smallcnn/checkpoint_00200.pth.tar --save_name test_out
+3
+1
+2
+2b
+Running BranchyNet Test
+Traceback (most recent call last):
+  File "onnx_2.py", line 212, in <module>
+    main()
+  File "onnx_2.py", line 207, in main
+    brn_main(md_pth=args.trained_path, save_name=args.save_name, args=args)
+  File "onnx_2.py", line 101, in brn_main
+    model = MSDNet(args)
+NameError: name 'MSDNet' is not defined
+(env_1) [gr719@ee-beholder0 mnist]$ python onnx_2.py --model brn --trained_path /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/branch_adv_max/mnist_smallcnn/checkpoint_00200.pth.tar --save_name test_out
+3
+1
+2
+2b
+Running BranchyNet Test
+Traceback (most recent call last):
+  File "onnx_2.py", line 212, in <module>
+    main()
+  File "onnx_2.py", line 207, in main
+    brn_main(md_pth=args.trained_path, save_name=args.save_name, args=args)
+  File "onnx_2.py", line 101, in brn_main
+    model = SmallCNN(args)
+  File "/home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py", line 34, in __init__
+    self.drop = nn.Dropout(drop)
+  File "/home/gr719/anaconda3/envs/env_1/lib/python3.7/site-packages/torch/nn/modules/dropout.py", line 14, in __init__
+    if p < 0 or p > 1:
+TypeError: '<' not supported between instances of 'Namespace' and 'int'
+(env_1) [gr719@ee-beholder0 mnist]$ python onnx_2.py --model brn --trained_path /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/branch_adv_max/mnist_smallcnn/checkpoint_00200.pth.tar --save_name test_out
+3
+1
+2
+2b
+Running BranchyNet Test
+STARTING RUN OF PYTORCH MODEL WITH INPUTS
+Traceback (most recent call last):
+  File "onnx_2.py", line 212, in <module>
+    main()
+  File "onnx_2.py", line 207, in main
+    brn_main(md_pth=args.trained_path, save_name=args.save_name, args=args)
+  File "onnx_2.py", line 135, in brn_main
+    output = model(test_x)
+  File "/home/gr719/anaconda3/envs/env_1/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py", line 66, in forward
+    out = self.conv1(input)
+  File "/home/gr719/anaconda3/envs/env_1/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/gr719/anaconda3/envs/env_1/lib/python3.7/site-packages/torch/nn/modules/conv.py", line 443, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/home/gr719/anaconda3/envs/env_1/lib/python3.7/site-packages/torch/nn/modules/conv.py", line 440, in _conv_forward
+    self.padding, self.dilation, self.groups)
+RuntimeError: Given groups=1, weight of size [32, 1, 3, 3], expected input[1, 3, 32, 32] to have 1 channels, but got 3 channels instead
+(env_1) [gr719@ee-beholder0 mnist]$ python onnx_2.py --model brn --trained_path /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/branch_adv_max/mnist_smallcnn/checkpoint_00200.pth.tar --save_name test_out
+3
+1
+2
+2b
+Running BranchyNet Test
+STARTING RUN OF PYTORCH MODEL WITH INPUTS
+Traceback (most recent call last):
+  File "onnx_2.py", line 212, in <module>
+    main()
+  File "onnx_2.py", line 207, in main
+    brn_main(md_pth=args.trained_path, save_name=args.save_name, args=args)
+  File "onnx_2.py", line 135, in brn_main
+    output = model(test_x)
+  File "/home/gr719/anaconda3/envs/env_1/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py", line 66, in forward
+    out = self.conv1(input)
+  File "/home/gr719/anaconda3/envs/env_1/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/gr719/anaconda3/envs/env_1/lib/python3.7/site-packages/torch/nn/modules/conv.py", line 443, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/home/gr719/anaconda3/envs/env_1/lib/python3.7/site-packages/torch/nn/modules/conv.py", line 440, in _conv_forward
+    self.padding, self.dilation, self.groups)
+RuntimeError: Given groups=1, weight of size [32, 1, 3, 3], expected input[1, 32, 32, 3] to have 1 channels, but got 32 channels instead
+(env_1) [gr719@ee-beholder0 mnist]$ python onnx_2.py --model brn --trained_path /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/branch_adv_max/mnist_smallcnn/checkpoint_00200.pth.tar --save_name test_out
+3
+1
+2
+2b
+Running BranchyNet Test
+STARTING RUN OF PYTORCH MODEL WITH INPUTS
+Traceback (most recent call last):
+  File "onnx_2.py", line 212, in <module>
+    main()
+  File "onnx_2.py", line 207, in main
+    brn_main(md_pth=args.trained_path, save_name=args.save_name, args=args)
+  File "onnx_2.py", line 135, in brn_main
+    output = model(test_x)
+  File "/home/gr719/anaconda3/envs/env_1/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py", line 68, in forward
+    output_branch.append(self.branch_layer1(out))
+  File "/home/gr719/anaconda3/envs/env_1/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/gr719/anaconda3/envs/env_1/lib/python3.7/site-packages/torch/nn/modules/container.py", line 139, in forward
+    input = module(input)
+  File "/home/gr719/anaconda3/envs/env_1/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/gr719/anaconda3/envs/env_1/lib/python3.7/site-packages/torch/nn/modules/conv.py", line 443, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/home/gr719/anaconda3/envs/env_1/lib/python3.7/site-packages/torch/nn/modules/conv.py", line 440, in _conv_forward
+    self.padding, self.dilation, self.groups)
+RuntimeError: Calculated padded input size per channel: (1 x 1). Kernel size: (3 x 3). Kernel size can't be greater than actual input size
+(env_1) [gr719@ee-beholder0 mnist]$ python onnx_2.py --model brn --trained_path /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/branch_adv_max/mnist_smallcnn/checkpoint_00200.pth.tar --save_name test_out
+3
+1
+2
+2b
+Running BranchyNet Test
+STARTING RUN OF PYTORCH MODEL WITH INPUTS
+Traceback (most recent call last):
+  File "onnx_2.py", line 212, in <module>
+    main()
+  File "onnx_2.py", line 207, in main
+    brn_main(md_pth=args.trained_path, save_name=args.save_name, args=args)
+  File "onnx_2.py", line 135, in brn_main
+    output = model(test_x)
+  File "/home/gr719/anaconda3/envs/env_1/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py", line 68, in forward
+    output_branch.append(self.branch_layer1(out))
+  File "/home/gr719/anaconda3/envs/env_1/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/gr719/anaconda3/envs/env_1/lib/python3.7/site-packages/torch/nn/modules/container.py", line 139, in forward
+    input = module(input)
+  File "/home/gr719/anaconda3/envs/env_1/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/gr719/anaconda3/envs/env_1/lib/python3.7/site-packages/torch/nn/modules/conv.py", line 443, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/home/gr719/anaconda3/envs/env_1/lib/python3.7/site-packages/torch/nn/modules/conv.py", line 440, in _conv_forward
+    self.padding, self.dilation, self.groups)
+RuntimeError: Calculated padded input size per channel: (1 x 1). Kernel size: (3 x 3). Kernel size can't be greater than actual input size
+(env_1) [gr719@ee-beholder0 mnist]$ python onnx_2.py --model brn --trained_path /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/branch_adv_max/mnist_smallcnn/checkpoint_00200.pth.tar --save_name test_out
+3
+1
+2
+2b
+Running BranchyNet Test
+STARTING RUN OF PYTORCH MODEL WITH INPUTS
+Traceback (most recent call last):
+  File "onnx_2.py", line 212, in <module>
+    main()
+  File "onnx_2.py", line 207, in main
+    brn_main(md_pth=args.trained_path, save_name=args.save_name, args=args)
+  File "onnx_2.py", line 135, in brn_main
+    output = model(test_x)
+  File "/home/gr719/anaconda3/envs/env_1/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py", line 66, in forward
+    out = self.conv1(input)
+  File "/home/gr719/anaconda3/envs/env_1/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/gr719/anaconda3/envs/env_1/lib/python3.7/site-packages/torch/nn/modules/conv.py", line 443, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/home/gr719/anaconda3/envs/env_1/lib/python3.7/site-packages/torch/nn/modules/conv.py", line 440, in _conv_forward
+    self.padding, self.dilation, self.groups)
+RuntimeError: Given groups=1, weight of size [32, 1, 3, 3], expected input[1, 3, 32, 32] to have 1 channels, but got 3 channels instead
+(env_1) [gr719@ee-beholder0 mnist]$ python onnx_2.py --model brn --trained_path /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/branch_adv_max/mnist_smallcnn/checkpoint_00200.pth.tar --save_name test_out
+3
+1
+2
+2b
+Running BranchyNet Test
+STARTING RUN OF PYTORCH MODEL WITH INPUTS
+/home/gr719/anaconda3/envs/env_1/lib/python3.7/site-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /opt/conda/conda-bld/pytorch_1623448224956/work/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+PT OUT2: [tensor([[ 8.0135, -4.1180, -1.1136, -0.5457, -3.0717, -5.3412, -1.9571, -2.2076,
+          8.9526,  6.1668]], grad_fn=<AddmmBackward>), tensor([[ 0.5419, -0.3199,  0.1064,  0.3430, -0.8174,  0.0309, -0.1530, -0.8569,
+          1.0228, -0.6335]], grad_fn=<AddmmBackward>), tensor([[ 0.3241, -0.4855,  0.4676,  0.1219, -0.4478,  0.0443,  0.1792, -0.6239,
+          0.7271, -0.3070]], grad_fn=<AddmmBackward>)]
+SAVING MODEL TO ONNX:  test_out.onnx
+PRINTING PYTORCH MODEL SCRIPT
+graph(%self : __torch__.models.SmallCNN,
+      %input.1 : Tensor):
+  %85 : int = prim::Constant[value=1024]()
+  %46 : int = prim::Constant[value=-1]() # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:78:23
+  %output_branch.1 : Tensor[] = prim::ListConstruct()
+  %3 : __torch__.torch.nn.modules.conv.Conv2d = prim::GetAttr[name="conv1"](%self)
+  %out.1 : Tensor = prim::CallMethod[name="forward"](%3, %input.1) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:66:14
+  %6 : __torch__.torch.nn.modules.activation.ReLU = prim::GetAttr[name="relu"](%self)
+  %out.5 : Tensor = prim::CallMethod[name="forward"](%6, %out.1) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:67:14
+  %10 : __torch__.torch.nn.modules.container.Sequential = prim::GetAttr[name="branch_layer1"](%self)
+  %12 : Tensor = prim::CallMethod[name="forward"](%10, %out.5) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:68:29
+  %13 : Tensor[] = aten::append(%output_branch.1, %12) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:68:8
+  %14 : __torch__.torch.nn.modules.conv.___torch_mangle_0.Conv2d = prim::GetAttr[name="conv2"](%self)
+  %out.11 : Tensor = prim::CallMethod[name="forward"](%14, %out.5) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:69:14
+  %17 : __torch__.torch.nn.modules.activation.ReLU = prim::GetAttr[name="relu"](%self)
+  %out.15 : Tensor = prim::CallMethod[name="forward"](%17, %out.11) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:70:14
+  %20 : __torch__.torch.nn.modules.pooling.MaxPool2d = prim::GetAttr[name="maxpool"](%self)
+  %out.19 : Tensor = prim::CallMethod[name="forward"](%20, %out.15) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:71:14
+  %23 : __torch__.torch.nn.modules.conv.___torch_mangle_1.Conv2d = prim::GetAttr[name="conv3"](%self)
+  %out.23 : Tensor = prim::CallMethod[name="forward"](%23, %out.19) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:72:14
+  %26 : __torch__.torch.nn.modules.activation.ReLU = prim::GetAttr[name="relu"](%self)
+  %out.27 : Tensor = prim::CallMethod[name="forward"](%26, %out.23) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:73:14
+  %30 : __torch__.torch.nn.modules.container.___torch_mangle_8.Sequential = prim::GetAttr[name="branch_layer2"](%self)
+  %32 : Tensor = prim::CallMethod[name="forward"](%30, %out.27) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:74:29
+  %33 : Tensor[] = aten::append(%output_branch.1, %32) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:74:8
+  %34 : __torch__.torch.nn.modules.conv.___torch_mangle_2.Conv2d = prim::GetAttr[name="conv4"](%self)
+  %out.33 : Tensor = prim::CallMethod[name="forward"](%34, %out.27) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:75:14
+  %37 : __torch__.torch.nn.modules.activation.ReLU = prim::GetAttr[name="relu"](%self)
+  %out.37 : Tensor = prim::CallMethod[name="forward"](%37, %out.33) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:76:14
+  %40 : __torch__.torch.nn.modules.pooling.MaxPool2d = prim::GetAttr[name="maxpool"](%self)
+  %out.41 : Tensor = prim::CallMethod[name="forward"](%40, %out.37) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:77:14
+  %51 : int[] = prim::ListConstruct(%46, %85)
+  %out.45 : Tensor = aten::view(%out.41, %51) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:78:14
+  %53 : __torch__.torch.nn.modules.linear.Linear = prim::GetAttr[name="fc1"](%self)
+  %out.49 : Tensor = prim::CallMethod[name="forward"](%53, %out.45) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:79:14
+  %56 : __torch__.torch.nn.modules.activation.ReLU = prim::GetAttr[name="relu"](%self)
+  %out.53 : Tensor = prim::CallMethod[name="forward"](%56, %out.49) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:80:14
+  %59 : __torch__.torch.nn.modules.dropout.Dropout = prim::GetAttr[name="drop"](%self)
+  %out.57 : Tensor = prim::CallMethod[name="forward"](%59, %out.53) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:81:14
+  %62 : __torch__.torch.nn.modules.linear.___torch_mangle_3.Linear = prim::GetAttr[name="fc2"](%self)
+  %out.61 : Tensor = prim::CallMethod[name="forward"](%62, %out.57) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:82:14
+  %65 : __torch__.torch.nn.modules.activation.ReLU = prim::GetAttr[name="relu"](%self)
+  %out.65 : Tensor = prim::CallMethod[name="forward"](%65, %out.61) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:83:14
+  %68 : __torch__.torch.nn.modules.linear.___torch_mangle_4.Linear = prim::GetAttr[name="fc3"](%self)
+  %out.69 : Tensor = prim::CallMethod[name="forward"](%68, %out.65) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:84:14
+  %73 : Tensor[] = aten::append(%output_branch.1, %out.69) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:85:8
+  return (%output_branch.1)
+ 
+
+SAVED TO:  outputs/onnx/test_out.onnx
+IMPORTING MODEL FROM ONNX
+RUNNING ONNX
+Traceback (most recent call last):
+  File "onnx_2.py", line 212, in <module>
+    main()
+  File "onnx_2.py", line 207, in main
+    brn_main(md_pth=args.trained_path, save_name=args.save_name, args=args)
+  File "onnx_2.py", line 161, in brn_main
+    ort_inputs = {ort_session.get_inputs()[0].name: to_numpy(xb)}
+NameError: name 'xb' is not defined
+(env_1) [gr719@ee-beholder0 mnist]$ python onnx_2.py --model brn --trained_path /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/branch_adv_max/mnist_smallcnn/checkpoint_00200.pth.tar --save_name test_out
+3
+1
+2
+2b
+Running BranchyNet Test
+Downloading http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz to ../data/mnist/MNIST/raw/train-images-idx3-ubyte.gz
+100.1%Extracting ../data/mnist/MNIST/raw/train-images-idx3-ubyte.gz
+Downloading http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz to ../data/mnist/MNIST/raw/train-labels-idx1-ubyte.gz
+113.5%Extracting ../data/mnist/MNIST/raw/train-labels-idx1-ubyte.gz
+Downloading http://yann.lecun.com/exdb/mnist/t10k-images-idx3-ubyte.gz to ../data/mnist/MNIST/raw/t10k-images-idx3-ubyte.gz
+100.4%Extracting ../data/mnist/MNIST/raw/t10k-images-idx3-ubyte.gz
+Downloading http://yann.lecun.com/exdb/mnist/t10k-labels-idx1-ubyte.gz to ../data/mnist/MNIST/raw/t10k-labels-idx1-ubyte.gz
+180.4%Extracting ../data/mnist/MNIST/raw/t10k-labels-idx1-ubyte.gz
+Processing...
+/home/gr719/anaconda3/envs/env_1/lib/python3.7/site-packages/torchvision/datasets/mnist.py:335: UserWarning: The given NumPy array is not writeable, and PyTorch does not support non-writeable tensors. This means you can write to the underlying (supposedly non-writeable) NumPy array using the tensor. You may want to copy the array to protect its data or make it writeable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at  /opt/conda/conda-bld/pytorch_1623448224956/work/torch/csrc/utils/tensor_numpy.cpp:180.)
+  return torch.from_numpy(parsed).view(length, num_rows, num_cols)
+Done!
+STARTING RUN OF PYTORCH MODEL WITH INPUTS
+/home/gr719/anaconda3/envs/env_1/lib/python3.7/site-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /opt/conda/conda-bld/pytorch_1623448224956/work/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+PT OUT: [tensor([[-0.7264, -3.9814, -1.2128,  0.5699, -0.4053, -2.1599, -5.2175,  9.0704,
+         -0.7020,  3.8079]], grad_fn=<AddmmBackward>), tensor([[-2.5351, -2.9384,  6.0801,  5.2041, -3.9397, -2.6165, -8.2140, 11.4052,
+          0.0637,  1.9832]], grad_fn=<AddmmBackward>), tensor([[-2.5015, -0.4232,  4.1282,  1.4537, -2.2319, -4.5844, -9.0802, 11.5101,
+         -0.1450,  1.8742]], grad_fn=<AddmmBackward>)]
+PT OUT2: [tensor([[ 7.4981, -7.3328, -2.0220,  0.1657, -3.8829, -1.4823, -2.6277, -1.3009,
+         10.4138,  4.9875]], grad_fn=<AddmmBackward>), tensor([[ 0.7996, -0.0024,  0.1856,  0.1091, -0.8739,  0.3007,  0.1145, -0.9088,
+          0.7400, -0.9257]], grad_fn=<AddmmBackward>), tensor([[ 0.1313, -0.5703,  0.2780, -0.0137, -0.0326,  0.1153,  0.0706, -0.5819,
+          0.5844,  0.0190]], grad_fn=<AddmmBackward>)]
+SAVING MODEL TO ONNX:  test_out.onnx
+PRINTING PYTORCH MODEL SCRIPT
+graph(%self : __torch__.models.SmallCNN,
+      %input.1 : Tensor):
+  %85 : int = prim::Constant[value=1024]()
+  %46 : int = prim::Constant[value=-1]() # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:78:23
+  %output_branch.1 : Tensor[] = prim::ListConstruct()
+  %3 : __torch__.torch.nn.modules.conv.Conv2d = prim::GetAttr[name="conv1"](%self)
+  %out.1 : Tensor = prim::CallMethod[name="forward"](%3, %input.1) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:66:14
+  %6 : __torch__.torch.nn.modules.activation.ReLU = prim::GetAttr[name="relu"](%self)
+  %out.5 : Tensor = prim::CallMethod[name="forward"](%6, %out.1) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:67:14
+  %10 : __torch__.torch.nn.modules.container.Sequential = prim::GetAttr[name="branch_layer1"](%self)
+  %12 : Tensor = prim::CallMethod[name="forward"](%10, %out.5) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:68:29
+  %13 : Tensor[] = aten::append(%output_branch.1, %12) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:68:8
+  %14 : __torch__.torch.nn.modules.conv.___torch_mangle_0.Conv2d = prim::GetAttr[name="conv2"](%self)
+  %out.11 : Tensor = prim::CallMethod[name="forward"](%14, %out.5) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:69:14
+  %17 : __torch__.torch.nn.modules.activation.ReLU = prim::GetAttr[name="relu"](%self)
+  %out.15 : Tensor = prim::CallMethod[name="forward"](%17, %out.11) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:70:14
+  %20 : __torch__.torch.nn.modules.pooling.MaxPool2d = prim::GetAttr[name="maxpool"](%self)
+  %out.19 : Tensor = prim::CallMethod[name="forward"](%20, %out.15) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:71:14
+  %23 : __torch__.torch.nn.modules.conv.___torch_mangle_1.Conv2d = prim::GetAttr[name="conv3"](%self)
+  %out.23 : Tensor = prim::CallMethod[name="forward"](%23, %out.19) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:72:14
+  %26 : __torch__.torch.nn.modules.activation.ReLU = prim::GetAttr[name="relu"](%self)
+  %out.27 : Tensor = prim::CallMethod[name="forward"](%26, %out.23) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:73:14
+  %30 : __torch__.torch.nn.modules.container.___torch_mangle_8.Sequential = prim::GetAttr[name="branch_layer2"](%self)
+  %32 : Tensor = prim::CallMethod[name="forward"](%30, %out.27) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:74:29
+  %33 : Tensor[] = aten::append(%output_branch.1, %32) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:74:8
+  %34 : __torch__.torch.nn.modules.conv.___torch_mangle_2.Conv2d = prim::GetAttr[name="conv4"](%self)
+  %out.33 : Tensor = prim::CallMethod[name="forward"](%34, %out.27) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:75:14
+  %37 : __torch__.torch.nn.modules.activation.ReLU = prim::GetAttr[name="relu"](%self)
+  %out.37 : Tensor = prim::CallMethod[name="forward"](%37, %out.33) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:76:14
+  %40 : __torch__.torch.nn.modules.pooling.MaxPool2d = prim::GetAttr[name="maxpool"](%self)
+  %out.41 : Tensor = prim::CallMethod[name="forward"](%40, %out.37) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:77:14
+  %51 : int[] = prim::ListConstruct(%46, %85)
+  %out.45 : Tensor = aten::view(%out.41, %51) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:78:14
+  %53 : __torch__.torch.nn.modules.linear.Linear = prim::GetAttr[name="fc1"](%self)
+  %out.49 : Tensor = prim::CallMethod[name="forward"](%53, %out.45) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:79:14
+  %56 : __torch__.torch.nn.modules.activation.ReLU = prim::GetAttr[name="relu"](%self)
+  %out.53 : Tensor = prim::CallMethod[name="forward"](%56, %out.49) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:80:14
+  %59 : __torch__.torch.nn.modules.dropout.Dropout = prim::GetAttr[name="drop"](%self)
+  %out.57 : Tensor = prim::CallMethod[name="forward"](%59, %out.53) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:81:14
+  %62 : __torch__.torch.nn.modules.linear.___torch_mangle_3.Linear = prim::GetAttr[name="fc2"](%self)
+  %out.61 : Tensor = prim::CallMethod[name="forward"](%62, %out.57) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:82:14
+  %65 : __torch__.torch.nn.modules.activation.ReLU = prim::GetAttr[name="relu"](%self)
+  %out.65 : Tensor = prim::CallMethod[name="forward"](%65, %out.61) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:83:14
+  %68 : __torch__.torch.nn.modules.linear.___torch_mangle_4.Linear = prim::GetAttr[name="fc3"](%self)
+  %out.69 : Tensor = prim::CallMethod[name="forward"](%68, %out.65) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:84:14
+  %73 : Tensor[] = aten::append(%output_branch.1, %out.69) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:85:8
+  return (%output_branch.1)
+ 
+
+SAVED TO:  outputs/onnx/test_out.onnx
+IMPORTING MODEL FROM ONNX
+RUNNING ONNX
+ONNX_OUT [[array([[-0.42201674, -2.7995343 ,  0.2499159 ,  1.397001  , -0.9922877 ,
+        -1.9586254 , -5.8521433 ,  7.695057  , -0.7331008 ,  2.0892885 ]],
+      dtype=float32), array([[-0.47304016, -2.541505  ,  3.526745  ,  3.7907095 , -3.1797607 ,
+        -2.3320298 , -7.158212  , 10.885641  , -1.2193879 ,  2.1237726 ]],
+      dtype=float32), array([[-4.0397315 , -0.18139994,  3.5579438 ,  2.5202522 , -2.2579908 ,
+        -3.8191516 , -9.780464  , 12.2607765 , -0.5398549 ,  2.2796152 ]],
+      dtype=float32)]]
+ONNX_OUT2 [[array([[ 7.692158  , -5.54438   , -2.734813  , -1.1017765 , -2.0943444 ,
+        -2.8518496 ,  0.18937132, -2.4920359 ,  8.262907  ,  3.7847507 ]],
+      dtype=float32), array([[ 0.5747648 , -0.12245217,  0.11485126,  0.26376903, -0.69132334,
+         0.12788114, -0.10651177, -0.7315033 ,  0.74357957, -0.58692735]],
+      dtype=float32), array([[ 0.24365896, -0.66522586,  0.69504243,  0.5049295 , -0.7413648 ,
+         0.17471176, -0.13388553, -0.59130126,  0.8968395 , -0.38340503]],
+      dtype=float32)]]
+Traceback (most recent call last):
+  File "onnx_2.py", line 212, in <module>
+    main()
+  File "onnx_2.py", line 207, in main
+    brn_main(md_pth=args.trained_path, save_name=args.save_name, args=args)
+  File "onnx_2.py", line 181, in brn_main
+    np.testing.assert_allclose(to_numpy(output),
+  File "onnx_2.py", line 156, in to_numpy
+    return tensor.detach().cpu().numpy() if tensor.requires_grad else \
+AttributeError: 'list' object has no attribute 'requires_grad'
+(env_1) [gr719@ee-beholder0 mnist]$ python onnx_2.py --model brn --trained_path /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/branch_adv_max/mnist_smallcnn/checkpoint_00200.pth.tar --save_name test_out
+3
+1
+2
+2b
+Running BranchyNet Test
+STARTING RUN OF PYTORCH MODEL WITH INPUTS
+/home/gr719/anaconda3/envs/env_1/lib/python3.7/site-packages/torch/nn/functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  /opt/conda/conda-bld/pytorch_1623448224956/work/c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+PT OUT: [tensor([[ 0.1203, -2.3575,  0.2714,  0.7310, -0.6248, -1.9536, -5.1492,  7.1102,
+         -0.2708,  2.0087]], grad_fn=<AddmmBackward>), tensor([[-0.0627, -2.8885,  3.0177,  3.9856, -1.6824, -1.8607, -6.6373,  9.7364,
+         -1.5757,  1.3716]], grad_fn=<AddmmBackward>), tensor([[-3.4299, -2.0588,  2.2938,  1.6332,  0.3253, -3.5180, -7.8562, 10.5752,
+         -1.4116,  3.4470]], grad_fn=<AddmmBackward>)]
+PT OUT2: [tensor([[ 7.0973, -4.6597, -1.8133, -0.1552, -2.1374, -0.4397,  1.8583, -4.2297,
+          7.4081,  3.0844]], grad_fn=<AddmmBackward>), tensor([[ 0.5164, -0.0799,  0.0624,  0.3328, -1.0195,  0.1954,  0.0043, -0.6393,
+          0.8308, -0.7705]], grad_fn=<AddmmBackward>), tensor([[ 0.6171, -0.8342,  0.3312,  0.1574, -0.7473,  0.3043,  0.4733, -1.0641,
+          1.0535, -0.2912]], grad_fn=<AddmmBackward>)]
+SAVING MODEL TO ONNX:  test_out.onnx
+PRINTING PYTORCH MODEL SCRIPT
+graph(%self : __torch__.models.SmallCNN,
+      %input.1 : Tensor):
+  %85 : int = prim::Constant[value=1024]()
+  %46 : int = prim::Constant[value=-1]() # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:78:23
+  %output_branch.1 : Tensor[] = prim::ListConstruct()
+  %3 : __torch__.torch.nn.modules.conv.Conv2d = prim::GetAttr[name="conv1"](%self)
+  %out.1 : Tensor = prim::CallMethod[name="forward"](%3, %input.1) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:66:14
+  %6 : __torch__.torch.nn.modules.activation.ReLU = prim::GetAttr[name="relu"](%self)
+  %out.5 : Tensor = prim::CallMethod[name="forward"](%6, %out.1) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:67:14
+  %10 : __torch__.torch.nn.modules.container.Sequential = prim::GetAttr[name="branch_layer1"](%self)
+  %12 : Tensor = prim::CallMethod[name="forward"](%10, %out.5) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:68:29
+  %13 : Tensor[] = aten::append(%output_branch.1, %12) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:68:8
+  %14 : __torch__.torch.nn.modules.conv.___torch_mangle_0.Conv2d = prim::GetAttr[name="conv2"](%self)
+  %out.11 : Tensor = prim::CallMethod[name="forward"](%14, %out.5) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:69:14
+  %17 : __torch__.torch.nn.modules.activation.ReLU = prim::GetAttr[name="relu"](%self)
+  %out.15 : Tensor = prim::CallMethod[name="forward"](%17, %out.11) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:70:14
+  %20 : __torch__.torch.nn.modules.pooling.MaxPool2d = prim::GetAttr[name="maxpool"](%self)
+  %out.19 : Tensor = prim::CallMethod[name="forward"](%20, %out.15) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:71:14
+  %23 : __torch__.torch.nn.modules.conv.___torch_mangle_1.Conv2d = prim::GetAttr[name="conv3"](%self)
+  %out.23 : Tensor = prim::CallMethod[name="forward"](%23, %out.19) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:72:14
+  %26 : __torch__.torch.nn.modules.activation.ReLU = prim::GetAttr[name="relu"](%self)
+  %out.27 : Tensor = prim::CallMethod[name="forward"](%26, %out.23) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:73:14
+  %30 : __torch__.torch.nn.modules.container.___torch_mangle_8.Sequential = prim::GetAttr[name="branch_layer2"](%self)
+  %32 : Tensor = prim::CallMethod[name="forward"](%30, %out.27) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:74:29
+  %33 : Tensor[] = aten::append(%output_branch.1, %32) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:74:8
+  %34 : __torch__.torch.nn.modules.conv.___torch_mangle_2.Conv2d = prim::GetAttr[name="conv4"](%self)
+  %out.33 : Tensor = prim::CallMethod[name="forward"](%34, %out.27) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:75:14
+  %37 : __torch__.torch.nn.modules.activation.ReLU = prim::GetAttr[name="relu"](%self)
+  %out.37 : Tensor = prim::CallMethod[name="forward"](%37, %out.33) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:76:14
+  %40 : __torch__.torch.nn.modules.pooling.MaxPool2d = prim::GetAttr[name="maxpool"](%self)
+  %out.41 : Tensor = prim::CallMethod[name="forward"](%40, %out.37) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:77:14
+  %51 : int[] = prim::ListConstruct(%46, %85)
+  %out.45 : Tensor = aten::view(%out.41, %51) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:78:14
+  %53 : __torch__.torch.nn.modules.linear.Linear = prim::GetAttr[name="fc1"](%self)
+  %out.49 : Tensor = prim::CallMethod[name="forward"](%53, %out.45) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:79:14
+  %56 : __torch__.torch.nn.modules.activation.ReLU = prim::GetAttr[name="relu"](%self)
+  %out.53 : Tensor = prim::CallMethod[name="forward"](%56, %out.49) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:80:14
+  %59 : __torch__.torch.nn.modules.dropout.Dropout = prim::GetAttr[name="drop"](%self)
+  %out.57 : Tensor = prim::CallMethod[name="forward"](%59, %out.53) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:81:14
+  %62 : __torch__.torch.nn.modules.linear.___torch_mangle_3.Linear = prim::GetAttr[name="fc2"](%self)
+  %out.61 : Tensor = prim::CallMethod[name="forward"](%62, %out.57) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:82:14
+  %65 : __torch__.torch.nn.modules.activation.ReLU = prim::GetAttr[name="relu"](%self)
+  %out.65 : Tensor = prim::CallMethod[name="forward"](%65, %out.61) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:83:14
+  %68 : __torch__.torch.nn.modules.linear.___torch_mangle_4.Linear = prim::GetAttr[name="fc3"](%self)
+  %out.69 : Tensor = prim::CallMethod[name="forward"](%68, %out.65) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:84:14
+  %73 : Tensor[] = aten::append(%output_branch.1, %out.69) # /home/gr719/Downloads/Imperial2021/9.Triple-Wins/triple-wins-master/mnist/models.py:85:8
+  return (%output_branch.1)
+ 
+
+SAVED TO:  outputs/onnx/test_out.onnx
+IMPORTING MODEL FROM ONNX
+RUNNING ONNX
+ONNX_OUT [[array([[-0.42201674, -2.7995343 ,  0.2499159 ,  1.397001  , -0.9922877 ,
+        -1.9586254 , -5.8521433 ,  7.695057  , -0.7331008 ,  2.0892885 ]],
+      dtype=float32), array([[-0.47304016, -2.541505  ,  3.526745  ,  3.7907095 , -3.1797607 ,
+        -2.3320298 , -7.158212  , 10.885641  , -1.2193879 ,  2.1237726 ]],
+      dtype=float32), array([[-4.0397315 , -0.18139994,  3.5579438 ,  2.5202522 , -2.2579908 ,
+        -3.8191516 , -9.780464  , 12.2607765 , -0.5398549 ,  2.2796152 ]],
+      dtype=float32)]]
+ONNX_OUT2 [[array([[ 7.692158  , -5.54438   , -2.734813  , -1.1017765 , -2.0943444 ,
+        -2.8518496 ,  0.18937132, -2.4920359 ,  8.262907  ,  3.7847507 ]],
+      dtype=float32), array([[ 0.5747648 , -0.12245217,  0.11485126,  0.26376903, -0.69132334,
+         0.12788114, -0.10651177, -0.7315033 ,  0.74357957, -0.58692735]],
+      dtype=float32), array([[ 0.24365896, -0.66522586,  0.69504243,  0.5049295 , -0.7413648 ,
+         0.17471176, -0.13388553, -0.59130126,  0.8968395 , -0.38340503]],
+      dtype=float32)]]
+Traceback (most recent call last):
+  File "onnx_2.py", line 212, in <module>
+    main()
+  File "onnx_2.py", line 207, in main
+    brn_main(md_pth=args.trained_path, save_name=args.save_name, args=args)
+  File "onnx_2.py", line 181, in brn_main
+    np.testing.assert_allclose(to_numpy(output),
+  File "onnx_2.py", line 156, in to_numpy
+    return tensor.detach().cpu().numpy() if tensor.requires_grad else \
+AttributeError: 'list' object has no attribute 'requires_grad'
+(env_1) [gr719@ee-beholder0 mnist]$ 
+
