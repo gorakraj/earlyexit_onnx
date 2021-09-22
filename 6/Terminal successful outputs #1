@@ -1,0 +1,433 @@
+(base) [gr719@ee-beholder0 ~]$ cd Downloadds/
+bash: cd: Downloadds/: No such file or directory
+(base) [gr719@ee-beholder0 ~]$ cd Downloads/
+(base) [gr719@ee-beholder0 Downloads]$ cd
+cd                 cdda-player        cd-info            cdrdao
+cd-create-profile  cd-drive           cd-it8             cd-read
+cdda2ogg           cd-fix-profile     cdparanoia         cdrecord
+cdda2wav           cd-iccdump         cd-paranoia        
+(base) [gr719@ee-beholder0 Downloads]$ cd
+cd                 cdda-player        cd-info            cdrdao
+cd-create-profile  cd-drive           cd-it8             cd-read
+cdda2ogg           cd-fix-profile     cdparanoia         cdrecord
+cdda2wav           cd-iccdump         cd-paranoia        
+(base) [gr719@ee-beholder0 Downloads]$ cd Imperial\ Work\ 2021\ 
+Imperial Work 2021 Copied/ Imperial Work 2021 Def/
+(base) [gr719@ee-beholder0 Downloads]$ cd Imperial\ Work\ 2021\ Def/
+(base) [gr719@ee-beholder0 Imperial Work 2021 Def]$ cd 6.\ BranchyNet/earlyexitnet-main/
+(base) [gr719@ee-beholder0 earlyexitnet-main]$ conda env create --file pt1_8_env.yaml
+Collecting package metadata (repodata.json): done
+Solving environment: done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.10.1
+  latest version: 4.10.3
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+Downloading and Extracting Packages
+openssl-1.1.1j       | 2.5 MB    | ##################################### | 100% 
+olefile-0.46         | 48 KB     | ##################################### | 100% 
+mkl_random-1.1.1     | 327 KB    | ##################################### | 100% 
+numpy-1.19.2         | 22 KB     | ##################################### | 100% 
+openh264-2.1.0       | 722 KB    | ##################################### | 100% 
+gnutls-3.6.5         | 1.6 MB    | ##################################### | 100% 
+cudatoolkit-10.2.89  | 365.1 MB  | ##################################### | 100% 
+certifi-2020.12.5    | 140 KB    | ##################################### | 100% 
+libtiff-4.2.0        | 463 KB    | ##################################### | 100% 
+mkl_fft-1.3.0        | 170 KB    | ##################################### | 100% 
+torchaudio-0.8.0     | 4.5 MB    | ##################################### | 100% 
+pip-21.0.1           | 1.8 MB    | ##################################### | 100% 
+pillow-8.1.2         | 627 KB    | ##################################### | 100% 
+lcms2-2.11           | 307 KB    | ##################################### | 100% 
+dataclasses-0.8      | 22 KB     | ##################################### | 100% 
+sqlite-3.35.1        | 981 KB    | ##################################### | 100% 
+setuptools-52.0.0    | 724 KB    | ##################################### | 100% 
+lame-3.100           | 323 KB    | ##################################### | 100% 
+mkl-service-2.3.0    | 52 KB     | ##################################### | 100% 
+ca-certificates-2021 | 118 KB    | ##################################### | 100% 
+six-1.15.0           | 27 KB     | ##################################### | 100% 
+libiconv-1.15        | 721 KB    | ##################################### | 100% 
+mkl-2020.2           | 138.3 MB  | ##################################### | 100% 
+torchvision-0.9.0    | 25.7 MB   | ##################################### | 100% 
+pytorch-1.8.0        | 671.7 MB  | ##################################### | 100% 
+ffmpeg-4.3           | 9.9 MB    | ##################################### | 100% 
+ninja-1.10.2         | 1.4 MB    | ##################################### | 100% 
+numpy-base-1.19.2    | 4.1 MB    | ##################################### | 100% 
+intel-openmp-2020.2  | 786 KB    | ##################################### | 100% 
+nettle-3.4.1         | 5.0 MB    | ##################################### | 100% 
+python-3.6.13        | 29.7 MB   | ##################################### | 100% 
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+Installing pip dependencies: | Ran pip subprocess with arguments:
+['/home/gr719/anaconda3/envs/pt1_8_env/bin/python', '-m', 'pip', 'install', '-U', '-r', '/home/gr719/Downloads/Imperial Work 2021 Def/6. BranchyNet/earlyexitnet-main/condaenv.jt3965ao.requirements.txt']
+Pip subprocess output:
+Collecting onnx==1.8.1
+  Downloading onnx-1.8.1-cp36-cp36m-manylinux2010_x86_64.whl (14.5 MB)
+Collecting onnxruntime==1.7.0
+  Downloading onnxruntime-1.7.0-cp36-cp36m-manylinux2014_x86_64.whl (4.1 MB)
+Collecting protobuf==3.15.6
+  Downloading protobuf-3.15.6-cp36-cp36m-manylinux1_x86_64.whl (1.0 MB)
+Requirement already satisfied: typing-extensions>=3.6.2.1 in /home/gr719/anaconda3/envs/pt1_8_env/lib/python3.6/site-packages (from onnx==1.8.1->-r /home/gr719/Downloads/Imperial Work 2021 Def/6. BranchyNet/earlyexitnet-main/condaenv.jt3965ao.requirements.txt (line 1)) (3.7.4.3)
+Requirement already satisfied: six in /home/gr719/anaconda3/envs/pt1_8_env/lib/python3.6/site-packages (from onnx==1.8.1->-r /home/gr719/Downloads/Imperial Work 2021 Def/6. BranchyNet/earlyexitnet-main/condaenv.jt3965ao.requirements.txt (line 1)) (1.15.0)
+Requirement already satisfied: numpy>=1.16.6 in /home/gr719/anaconda3/envs/pt1_8_env/lib/python3.6/site-packages (from onnx==1.8.1->-r /home/gr719/Downloads/Imperial Work 2021 Def/6. BranchyNet/earlyexitnet-main/condaenv.jt3965ao.requirements.txt (line 1)) (1.19.2)
+Installing collected packages: protobuf, onnxruntime, onnx
+Successfully installed onnx-1.8.1 onnxruntime-1.7.0 protobuf-3.15.6
+
+done
+#
+# To activate this environment, use
+#
+#     $ conda activate pt1_8_env
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+(base) [gr719@ee-beholder0 earlyexitnet-main]$ pip install onnx runtime
+WARNING: Keyring is skipped due to an exception: Failed to create the collection: Prompt dismissed..
+Collecting onnx
+  Downloading onnx-1.10.1-cp38-cp38-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (12.3 MB)
+     |████████████████████████████████| 12.3 MB 9.3 MB/s 
+Collecting runtime
+  Downloading runtime-0.1.4.tar.gz (4.3 kB)
+Requirement already satisfied: six in /home/gr719/anaconda3/lib/python3.8/site-packages (from onnx) (1.15.0)
+Requirement already satisfied: numpy>=1.16.6 in /home/gr719/anaconda3/lib/python3.8/site-packages (from onnx) (1.20.1)
+Collecting protobuf
+  Downloading protobuf-3.17.3-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.whl (1.0 MB)
+     |████████████████████████████████| 1.0 MB 37.3 MB/s 
+Requirement already satisfied: typing-extensions>=3.6.2.1 in /home/gr719/anaconda3/lib/python3.8/site-packages (from onnx) (3.7.4.3)
+Building wheels for collected packages: runtime
+  Building wheel for runtime (setup.py) ... done
+  Created wheel for runtime: filename=runtime-0.1.4-py3-none-any.whl size=4673 sha256=8e0a9edaa0a6a7bd34d574cef0e541bd7be5e965014b33084f59e2735e9800a4
+  Stored in directory: /home/gr719/.cache/pip/wheels/79/4b/ea/f2d130e6547604ab43275bff6b94530566de3d01e214047b45
+Successfully built runtime
+Installing collected packages: protobuf, runtime, onnx
+Successfully installed onnx-1.10.1 protobuf-3.17.3 runtime-0.1.4
+(base) [gr719@ee-beholder0 earlyexitnet-main]$ conda activate pt1_8_env
+(pt1_8_env) [gr719@ee-beholder0 earlyexitnet-main]$ python test_onnx.py --model [brn, lenet] --trained_path path/to/trained/branchynet.pth --save_name onnx_save_name
+usage: test_onnx.py [-h] [--model {brn,lenet}] [--trained_path TRAINED_PATH]
+                    [--save_name SAVE_NAME]
+test_onnx.py: error: argument --model: invalid choice: '[brn,' (choose from 'brn', 'lenet')
+(pt1_8_env) [gr719@ee-beholder0 earlyexitnet-main]$ python main.py
+Model done
+Traceback (most recent call last):
+  File "main.py", line 262, in <module>
+    main()
+  File "main.py", line 239, in main
+    train_dl, valid_dl = pull_mnist_data(batch_size)
+  File "main.py", line 175, in pull_mnist_data
+    download=True, train=True, transform=tfs),
+  File "/home/gr719/anaconda3/envs/pt1_8_env/lib/python3.6/site-packages/torchvision/datasets/mnist.py", line 79, in __init__
+    self.download()
+  File "/home/gr719/anaconda3/envs/pt1_8_env/lib/python3.6/site-packages/torchvision/datasets/mnist.py", line 146, in download
+    download_and_extract_archive(url, download_root=self.raw_folder, filename=filename, md5=md5)
+  File "/home/gr719/anaconda3/envs/pt1_8_env/lib/python3.6/site-packages/torchvision/datasets/utils.py", line 314, in download_and_extract_archive
+    download_url(url, download_root, filename, md5)
+  File "/home/gr719/anaconda3/envs/pt1_8_env/lib/python3.6/site-packages/torchvision/datasets/utils.py", line 122, in download_url
+    url = _get_redirect_url(url, max_hops=max_redirect_hops)
+  File "/home/gr719/anaconda3/envs/pt1_8_env/lib/python3.6/site-packages/torchvision/datasets/utils.py", line 71, in _get_redirect_url
+    import requests
+ModuleNotFoundError: No module named 'requests'
+(pt1_8_env) [gr719@ee-beholder0 earlyexitnet-main]$ python main.py
+Model done
+Traceback (most recent call last):
+  File "main.py", line 262, in <module>
+    main()
+  File "main.py", line 239, in main
+    train_dl, valid_dl = pull_mnist_data(batch_size)
+  File "main.py", line 175, in pull_mnist_data
+    download=True, train=True, transform=tfs),
+  File "/home/gr719/anaconda3/envs/pt1_8_env/lib/python3.6/site-packages/torchvision/datasets/mnist.py", line 79, in __init__
+    self.download()
+  File "/home/gr719/anaconda3/envs/pt1_8_env/lib/python3.6/site-packages/torchvision/datasets/mnist.py", line 146, in download
+    download_and_extract_archive(url, download_root=self.raw_folder, filename=filename, md5=md5)
+  File "/home/gr719/anaconda3/envs/pt1_8_env/lib/python3.6/site-packages/torchvision/datasets/utils.py", line 314, in download_and_extract_archive
+    download_url(url, download_root, filename, md5)
+  File "/home/gr719/anaconda3/envs/pt1_8_env/lib/python3.6/site-packages/torchvision/datasets/utils.py", line 122, in download_url
+    url = _get_redirect_url(url, max_hops=max_redirect_hops)
+  File "/home/gr719/anaconda3/envs/pt1_8_env/lib/python3.6/site-packages/torchvision/datasets/utils.py", line 71, in _get_redirect_url
+    import requests
+ModuleNotFoundError: No module named 'requests'
+(pt1_8_env) [gr719@ee-beholder0 earlyexitnet-main]$ pip install onnx onnxruntime
+Requirement already satisfied: onnx in /home/gr719/anaconda3/envs/pt1_8_env/lib/python3.6/site-packages (1.8.1)
+Requirement already satisfied: onnxruntime in /home/gr719/anaconda3/envs/pt1_8_env/lib/python3.6/site-packages (1.7.0)
+Requirement already satisfied: numpy>=1.16.6 in /home/gr719/anaconda3/envs/pt1_8_env/lib/python3.6/site-packages (from onnx) (1.19.2)
+Requirement already satisfied: six in /home/gr719/anaconda3/envs/pt1_8_env/lib/python3.6/site-packages (from onnx) (1.15.0)
+Requirement already satisfied: typing-extensions>=3.6.2.1 in /home/gr719/anaconda3/envs/pt1_8_env/lib/python3.6/site-packages (from onnx) (3.7.4.3)
+Requirement already satisfied: protobuf in /home/gr719/anaconda3/envs/pt1_8_env/lib/python3.6/site-packages (from onnx) (3.15.6)
+(pt1_8_env) [gr719@ee-beholder0 earlyexitnet-main]$ pip install requests
+Collecting requests
+  Downloading requests-2.26.0-py2.py3-none-any.whl (62 kB)
+     |████████████████████████████████| 62 kB 67 kB/s 
+Collecting charset-normalizer~=2.0.0
+  Downloading charset_normalizer-2.0.4-py3-none-any.whl (36 kB)
+Collecting urllib3<1.27,>=1.21.1
+  Downloading urllib3-1.26.6-py2.py3-none-any.whl (138 kB)
+     |████████████████████████████████| 138 kB 34.8 MB/s 
+Collecting idna<4,>=2.5
+  Downloading idna-3.2-py3-none-any.whl (59 kB)
+     |████████████████████████████████| 59 kB 425 kB/s 
+Requirement already satisfied: certifi>=2017.4.17 in /home/gr719/anaconda3/envs/pt1_8_env/lib/python3.6/site-packages (from requests) (2020.12.5)
+Installing collected packages: urllib3, idna, charset-normalizer, requests
+Successfully installed charset-normalizer-2.0.4 idna-3.2 requests-2.26.0 urllib3-1.26.6
+(pt1_8_env) [gr719@ee-beholder0 earlyexitnet-main]$ python main.py
+Model done
+Downloading http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz to ../data/mnist/MNIST/raw/train-images-idx3-ubyte.gz
+100.0%
+Extracting ../data/mnist/MNIST/raw/train-images-idx3-ubyte.gz to ../data/mnist/MNIST/raw
+Downloading http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz to ../data/mnist/MNIST/raw/train-labels-idx1-ubyte.gz
+102.8%
+Extracting ../data/mnist/MNIST/raw/train-labels-idx1-ubyte.gz to ../data/mnist/MNIST/raw
+Downloading http://yann.lecun.com/exdb/mnist/t10k-images-idx3-ubyte.gz to ../data/mnist/MNIST/raw/t10k-images-idx3-ubyte.gz
+100.0%
+Extracting ../data/mnist/MNIST/raw/t10k-images-idx3-ubyte.gz to ../data/mnist/MNIST/raw
+Downloading http://yann.lecun.com/exdb/mnist/t10k-labels-idx1-ubyte.gz to ../data/mnist/MNIST/raw/t10k-labels-idx1-ubyte.gz
+112.7%
+Extracting ../data/mnist/MNIST/raw/t10k-labels-idx1-ubyte.gz to ../data/mnist/MNIST/raw
+Processing...
+/home/gr719/anaconda3/envs/pt1_8_env/lib/python3.6/site-packages/torchvision/datasets/mnist.py:479: UserWarning: The given NumPy array is not writeable, and PyTorch does not support non-writeable tensors. This means you can write to the underlying (supposedly non-writeable) NumPy array using the tensor. You may want to copy the array to protect its data or make it writeable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at  /opt/conda/conda-bld/pytorch_1614378078406/work/torch/csrc/utils/tensor_numpy.cpp:143.)
+  return torch.from_numpy(parsed.astype(m[2], copy=False)).view(*s)
+Done!
+Got training and test data
+Loss function set
+PRETRAINING BACKBONE FROM SCRATCH
+Starting epoch: 1... V Loss: 0.3981587008426064
+Saved to: outputs/pre_Trn_bb_2021-08-23_125207/backbone-1-2021-08-23_125221.pth
+Starting epoch: 2... V Loss: 0.19380461542229904
+Saved to: outputs/pre_Trn_bb_2021-08-23_125207/backbone-2-2021-08-23_125235.pth
+Starting epoch: 3... V Loss: 0.11891765343515497
+Saved to: outputs/pre_Trn_bb_2021-08-23_125207/backbone-3-2021-08-23_125248.pth
+Starting epoch: 4... V Loss: 0.0838112517407066
+Saved to: outputs/pre_Trn_bb_2021-08-23_125207/backbone-4-2021-08-23_125301.pth
+Starting epoch: 5... V Loss: 0.06826375660143401
+Saved to: outputs/pre_Trn_bb_2021-08-23_125207/backbone-5-2021-08-23_125315.pth
+BEST VAL LOSS:  0.06826375660143401  for epoch:  outputs/pre_Trn_bb_2021-08-23_125207/backbone-5-2021-08-23_125315.pth
+LOADING BEST BACKBONE
+JOINT TRAINING WITH PRETRAINED BACKBONE
+starting epoch: 1... v loss: [0.4620152  0.07919364]
+Saved to: outputs/pre_Trn_bb_2021-08-23_125207/pretrn-joint-1-2021-08-23_125330.pth
+starting epoch: 2... v loss: [0.27873302 0.05776983]
+Saved to: outputs/pre_Trn_bb_2021-08-23_125207/pretrn-joint-2-2021-08-23_125346.pth
+starting epoch: 3... v loss: [0.17437895 0.04746287]
+Saved to: outputs/pre_Trn_bb_2021-08-23_125207/pretrn-joint-3-2021-08-23_125401.pth
+starting epoch: 4... v loss: [0.13068242 0.0449358 ]
+Saved to: outputs/pre_Trn_bb_2021-08-23_125207/pretrn-joint-4-2021-08-23_125417.pth
+starting epoch: 5... v loss: [0.10420964 0.04176044]
+Saved to: outputs/pre_Trn_bb_2021-08-23_125207/pretrn-joint-5-2021-08-23_125432.pth
+starting epoch: 6... v loss: [0.09262814 0.03721002]
+Saved to: outputs/pre_Trn_bb_2021-08-23_125207/pretrn-joint-6-2021-08-23_125448.pth
+starting epoch: 7... v loss: [0.08073816 0.03905792]
+Saved to: outputs/pre_Trn_bb_2021-08-23_125207/pretrn-joint-7-2021-08-23_125502.pth
+starting epoch: 8... v loss: [0.07410806 0.03700681]
+Saved to: outputs/pre_Trn_bb_2021-08-23_125207/pretrn-joint-8-2021-08-23_125518.pth
+starting epoch: 9... v loss: [0.07071987 0.04064257]
+Saved to: outputs/pre_Trn_bb_2021-08-23_125207/pretrn-joint-9-2021-08-23_125534.pth
+starting epoch: 10... v loss: [0.06339941 0.03185739]
+Saved to: outputs/pre_Trn_bb_2021-08-23_125207/pretrn-joint-10-2021-08-23_125549.pth
+BEST* VAL LOSS:  [0.06339941 0.03185739]  for epoch:  outputs/pre_Trn_bb_2021-08-23_125207/pretrn-joint-10-2021-08-23_125549.pth
+(pt1_8_env) [gr719@ee-beholder0 earlyexitnet-main]$ python test_onnx.py --model brn --trained_path /home/Downloads/Imperial Work 2021 Def/6. BranchyNet/earlyexit-main/outputs/pre_Trn_bb_2021-08-23_125207/pretrn-joint-10-2021-08-23_125549.pth --save_name test_out
+Traceback (most recent call last):
+  File "test_onnx.py", line 327, in <module>
+    main()
+  File "test_onnx.py", line 318, in main
+    args = parser.parse_args()
+  File "/home/gr719/anaconda3/envs/pt1_8_env/lib/python3.6/argparse.py", line 1734, in parse_args
+    args, argv = self.parse_known_args(args, namespace)
+  File "/home/gr719/anaconda3/envs/pt1_8_env/lib/python3.6/argparse.py", line 1766, in parse_known_args
+    namespace, args = self._parse_known_args(args, namespace)
+  File "/home/gr719/anaconda3/envs/pt1_8_env/lib/python3.6/argparse.py", line 1972, in _parse_known_args
+    start_index = consume_optional(start_index)
+  File "/home/gr719/anaconda3/envs/pt1_8_env/lib/python3.6/argparse.py", line 1912, in consume_optional
+    take_action(action, args, option_string)
+  File "/home/gr719/anaconda3/envs/pt1_8_env/lib/python3.6/argparse.py", line 1824, in take_action
+    argument_values = self._get_values(action, argument_strings)
+  File "/home/gr719/anaconda3/envs/pt1_8_env/lib/python3.6/argparse.py", line 2265, in _get_values
+    value = self._get_value(action, arg_string)
+  File "/home/gr719/anaconda3/envs/pt1_8_env/lib/python3.6/argparse.py", line 2294, in _get_value
+    result = type_func(arg_string)
+  File "test_onnx.py", line 308, in path_check
+    raise FileNotFoundError(string)
+FileNotFoundError: /home/Downloads/Imperial
+(pt1_8_env) [gr719@ee-beholder0 earlyexitnet-main]$ python test_onnx.py --model brn --trained_path /home/Downloads/Imperial\ Work\ 2021\ Def/6.\ BranchyNet/earlyexit-main/outputs/pre_Trn_bb_2021-08-23_125207/pretrn-joint-10-2021-08-23_125549.pth --save_name test_out
+Traceback (most recent call last):
+  File "test_onnx.py", line 327, in <module>
+    main()
+  File "test_onnx.py", line 318, in main
+    args = parser.parse_args()
+  File "/home/gr719/anaconda3/envs/pt1_8_env/lib/python3.6/argparse.py", line 1734, in parse_args
+    args, argv = self.parse_known_args(args, namespace)
+  File "/home/gr719/anaconda3/envs/pt1_8_env/lib/python3.6/argparse.py", line 1766, in parse_known_args
+    namespace, args = self._parse_known_args(args, namespace)
+  File "/home/gr719/anaconda3/envs/pt1_8_env/lib/python3.6/argparse.py", line 1972, in _parse_known_args
+    start_index = consume_optional(start_index)
+  File "/home/gr719/anaconda3/envs/pt1_8_env/lib/python3.6/argparse.py", line 1912, in consume_optional
+    take_action(action, args, option_string)
+  File "/home/gr719/anaconda3/envs/pt1_8_env/lib/python3.6/argparse.py", line 1824, in take_action
+    argument_values = self._get_values(action, argument_strings)
+  File "/home/gr719/anaconda3/envs/pt1_8_env/lib/python3.6/argparse.py", line 2265, in _get_values
+    value = self._get_value(action, arg_string)
+  File "/home/gr719/anaconda3/envs/pt1_8_env/lib/python3.6/argparse.py", line 2294, in _get_value
+    result = type_func(arg_string)
+  File "test_onnx.py", line 308, in path_check
+    raise FileNotFoundError(string)
+FileNotFoundError: /home/Downloads/Imperial Work 2021 Def/6. BranchyNet/earlyexit-main/outputs/pre_Trn_bb_2021-08-23_125207/pretrn-joint-10-2021-08-23_125549.pth
+(pt1_8_env) [gr719@ee-beholder0 earlyexitnet-main]$ python test_onnx.py --model brn --trained_path /home/gr719/Downloads/Imperial\ Work\ 2021\ Def/6.\ BranchyNet/earlyexit-main/outputs/pre_Trn_bb_2021-08-23_125207/pretrn-joint-10-2021-08-23_125549.pth --save_name test_out
+Traceback (most recent call last):
+  File "test_onnx.py", line 327, in <module>
+    main()
+  File "test_onnx.py", line 318, in main
+    args = parser.parse_args()
+  File "/home/gr719/anaconda3/envs/pt1_8_env/lib/python3.6/argparse.py", line 1734, in parse_args
+    args, argv = self.parse_known_args(args, namespace)
+  File "/home/gr719/anaconda3/envs/pt1_8_env/lib/python3.6/argparse.py", line 1766, in parse_known_args
+    namespace, args = self._parse_known_args(args, namespace)
+  File "/home/gr719/anaconda3/envs/pt1_8_env/lib/python3.6/argparse.py", line 1972, in _parse_known_args
+    start_index = consume_optional(start_index)
+  File "/home/gr719/anaconda3/envs/pt1_8_env/lib/python3.6/argparse.py", line 1912, in consume_optional
+    take_action(action, args, option_string)
+  File "/home/gr719/anaconda3/envs/pt1_8_env/lib/python3.6/argparse.py", line 1824, in take_action
+    argument_values = self._get_values(action, argument_strings)
+  File "/home/gr719/anaconda3/envs/pt1_8_env/lib/python3.6/argparse.py", line 2265, in _get_values
+    value = self._get_value(action, arg_string)
+  File "/home/gr719/anaconda3/envs/pt1_8_env/lib/python3.6/argparse.py", line 2294, in _get_value
+    result = type_func(arg_string)
+  File "test_onnx.py", line 308, in path_check
+    raise FileNotFoundError(string)
+FileNotFoundError: /home/gr719/Downloads/Imperial Work 2021 Def/6. BranchyNet/earlyexit-main/outputs/pre_Trn_bb_2021-08-23_125207/pretrn-joint-10-2021-08-23_125549.pth
+(pt1_8_env) [gr719@ee-beholder0 earlyexitnet-main]$ python test_onnx.py --model brn --trained_path /home/gr719/Downloads/Imperial Work 2021 Def/6. BranchyNet/earlyexit-main/outputs/pre_Trn_bb_2021-08-23_125207/pretrn-joint-10-2021-08-23_125549.pth --save_name test_out
+Traceback (most recent call last):
+  File "test_onnx.py", line 327, in <module>
+    main()
+  File "test_onnx.py", line 318, in main
+    args = parser.parse_args()
+  File "/home/gr719/anaconda3/envs/pt1_8_env/lib/python3.6/argparse.py", line 1734, in parse_args
+    args, argv = self.parse_known_args(args, namespace)
+  File "/home/gr719/anaconda3/envs/pt1_8_env/lib/python3.6/argparse.py", line 1766, in parse_known_args
+    namespace, args = self._parse_known_args(args, namespace)
+  File "/home/gr719/anaconda3/envs/pt1_8_env/lib/python3.6/argparse.py", line 1972, in _parse_known_args
+    start_index = consume_optional(start_index)
+  File "/home/gr719/anaconda3/envs/pt1_8_env/lib/python3.6/argparse.py", line 1912, in consume_optional
+    take_action(action, args, option_string)
+  File "/home/gr719/anaconda3/envs/pt1_8_env/lib/python3.6/argparse.py", line 1824, in take_action
+    argument_values = self._get_values(action, argument_strings)
+  File "/home/gr719/anaconda3/envs/pt1_8_env/lib/python3.6/argparse.py", line 2265, in _get_values
+    value = self._get_value(action, arg_string)
+  File "/home/gr719/anaconda3/envs/pt1_8_env/lib/python3.6/argparse.py", line 2294, in _get_value
+    result = type_func(arg_string)
+  File "test_onnx.py", line 308, in path_check
+    raise FileNotFoundError(string)
+FileNotFoundError: /home/gr719/Downloads/Imperial
+(pt1_8_env) [gr719@ee-beholder0 earlyexitnet-main]$ python test_onnx.py --model brn --trained_path /home/gr719/Downloads/Imperial\ Work\ 2021\ Def/6.\ BranchyNet/earlyexit-main/outputs/pre_Trn_bb_2021-08-23_125207/pretrn-joint-10-2021-08-23_125549.pth --save_name test_out
+Traceback (most recent call last):
+  File "test_onnx.py", line 327, in <module>
+    main()
+  File "test_onnx.py", line 318, in main
+    args = parser.parse_args()
+  File "/home/gr719/anaconda3/envs/pt1_8_env/lib/python3.6/argparse.py", line 1734, in parse_args
+    args, argv = self.parse_known_args(args, namespace)
+  File "/home/gr719/anaconda3/envs/pt1_8_env/lib/python3.6/argparse.py", line 1766, in parse_known_args
+    namespace, args = self._parse_known_args(args, namespace)
+  File "/home/gr719/anaconda3/envs/pt1_8_env/lib/python3.6/argparse.py", line 1972, in _parse_known_args
+    start_index = consume_optional(start_index)
+  File "/home/gr719/anaconda3/envs/pt1_8_env/lib/python3.6/argparse.py", line 1912, in consume_optional
+    take_action(action, args, option_string)
+  File "/home/gr719/anaconda3/envs/pt1_8_env/lib/python3.6/argparse.py", line 1824, in take_action
+    argument_values = self._get_values(action, argument_strings)
+  File "/home/gr719/anaconda3/envs/pt1_8_env/lib/python3.6/argparse.py", line 2265, in _get_values
+    value = self._get_value(action, arg_string)
+  File "/home/gr719/anaconda3/envs/pt1_8_env/lib/python3.6/argparse.py", line 2294, in _get_value
+    result = type_func(arg_string)
+  File "test_onnx.py", line 308, in path_check
+    raise FileNotFoundError(string)
+FileNotFoundError: /home/gr719/Downloads/Imperial Work 2021 Def/6. BranchyNet/earlyexit-main/outputs/pre_Trn_bb_2021-08-23_125207/pretrn-joint-10-2021-08-23_125549.pth
+(pt1_8_env) [gr719@ee-beholder0 earlyexitnet-main]$ python test_onnx.py --model brn --trained_path /home/Downloads/Imperial\ Work\ 2021\ Def/6.\ BranchyNet/earlyexit-main/outputs/pre_Trn_bb_2021-08-23_125207/pretrn-joint-10-2021-08-23_125549.pth --save_name test_out
+Traceback (most recent call last):
+  File "test_onnx.py", line 327, in <module>
+    main()
+  File "test_onnx.py", line 318, in main
+    args = parser.parse_args()
+  File "/home/gr719/anaconda3/envs/pt1_8_env/lib/python3.6/argparse.py", line 1734, in parse_args
+    args, argv = self.parse_known_args(args, namespace)
+  File "/home/gr719/anaconda3/envs/pt1_8_env/lib/python3.6/argparse.py", line 1766, in parse_known_args
+    namespace, args = self._parse_known_args(args, namespace)
+  File "/home/gr719/anaconda3/envs/pt1_8_env/lib/python3.6/argparse.py", line 1972, in _parse_known_args
+    start_index = consume_optional(start_index)
+  File "/home/gr719/anaconda3/envs/pt1_8_env/lib/python3.6/argparse.py", line 1912, in consume_optional
+    take_action(action, args, option_string)
+  File "/home/gr719/anaconda3/envs/pt1_8_env/lib/python3.6/argparse.py", line 1824, in take_action
+    argument_values = self._get_values(action, argument_strings)
+  File "/home/gr719/anaconda3/envs/pt1_8_env/lib/python3.6/argparse.py", line 2265, in _get_values
+    value = self._get_value(action, arg_string)
+  File "/home/gr719/anaconda3/envs/pt1_8_env/lib/python3.6/argparse.py", line 2294, in _get_value
+    result = type_func(arg_string)
+  File "test_onnx.py", line 308, in path_check
+    raise FileNotFoundError(string)
+FileNotFoundError: /home/Downloads/Imperial Work 2021 Def/6. BranchyNet/earlyexit-main/outputs/pre_Trn_bb_2021-08-23_125207/pretrn-joint-10-2021-08-23_125549.pth
+(pt1_8_env) [gr719@ee-beholder0 earlyexitnet-main]$ python test_onnx.py --model brn --trained_path /home/gr719/Downloads/Imperial\ Work\ 2021\ Def/6.\ BranchyNet/earlyexitnet-main/outputs/pre_Trn_bb_2021-08-23_125207/pretrn-joint-10-2021-08-23_125549.pth --save_name test_out
+Running BranchyNet Test
+Finished loading model parameters
+STARTING RUN OF PYTORCH MODEL WITH INPUTS
+PT OUT: tensor([[ -5.2730,  -9.4580,   0.3677,   2.4584, -14.2480,  -5.1130, -23.8205,
+          14.9380,  -2.2696,   0.1080]], grad_fn=<AddmmBackward>)
+PT OUT2: tensor([[-30.2683,  -9.4302,  -7.1026, -14.0177, -17.3372, -12.3920, -25.2177,
+         -26.0668, -19.9780, -36.8964]], grad_fn=<AddmmBackward>)
+SAVING MODEL TO ONNX:  test_out.onnx
+PRINTING PYTORCH MODEL SCRIPT
+graph(%self : __torch__.models.Branchynet.Branchynet,
+      %x.1 : Tensor):
+  %38 : str = prim::Constant[value="This Python function is annotated to be ignored and cannot be run"]()
+  %53 : Tensor = prim::Uninitialized()
+  %2 : bool = prim::GetAttr[name="fast_inference_mode"](%self)
+  %62 : Tensor = prim::If(%2) # /home/gr719/Downloads/Imperial Work 2021 Def/6. BranchyNet/earlyexitnet-main/models/Branchynet.py:157:8
+    block0():
+      %4 : __torch__.torch.nn.modules.container.ModuleList = prim::GetAttr[name="backbone"](%self)
+      %6 : __torch__.models.Branchynet.ConvPoolAc = prim::GetAttr[name="0"](%4)
+      %8 : __torch__.torch.nn.modules.container.___torch_mangle_6.Sequential = prim::GetAttr[name="1"](%4)
+      %9 : __torch__.torch.nn.modules.container.___torch_mangle_14.ModuleList = prim::GetAttr[name="exits"](%self)
+      %11 : __torch__.torch.nn.modules.container.___torch_mangle_11.Sequential = prim::GetAttr[name="0"](%9)
+      %13 : __torch__.torch.nn.modules.container.___torch_mangle_13.Sequential = prim::GetAttr[name="1"](%9)
+      %x.3 : Tensor = prim::CallMethod[name="forward"](%6, %x.1) # /home/gr719/Downloads/Imperial Work 2021 Def/6. BranchyNet/earlyexitnet-main/models/Branchynet.py:162:20
+      %res.1 : Tensor = prim::CallMethod[name="forward"](%11, %x.3) # /home/gr719/Downloads/Imperial Work 2021 Def/6. BranchyNet/earlyexitnet-main/models/Branchynet.py:163:22
+      %21 : Tensor = prim::CallMethod[name="exit_criterion_top1"](%self, %res.1) # /home/gr719/Downloads/Imperial Work 2021 Def/6. BranchyNet/earlyexitnet-main/models/Branchynet.py:166:19
+      %23 : bool = aten::Bool(%21) # /home/gr719/Downloads/Imperial Work 2021 Def/6. BranchyNet/earlyexitnet-main/models/Branchynet.py:166:19
+      %73 : Tensor = prim::If(%23) # /home/gr719/Downloads/Imperial Work 2021 Def/6. BranchyNet/earlyexitnet-main/models/Branchynet.py:166:16
+        block0():
+          -> (%res.1)
+        block1():
+          %x.8 : Tensor = prim::CallMethod[name="forward"](%8, %x.3) # /home/gr719/Downloads/Imperial Work 2021 Def/6. BranchyNet/earlyexitnet-main/models/Branchynet.py:162:20
+          %res.5 : Tensor = prim::CallMethod[name="forward"](%13, %x.8) # /home/gr719/Downloads/Imperial Work 2021 Def/6. BranchyNet/earlyexitnet-main/models/Branchynet.py:163:22
+          %65 : Tensor = prim::CallMethod[name="exit_criterion_top1"](%self, %res.5) # /home/gr719/Downloads/Imperial Work 2021 Def/6. BranchyNet/earlyexitnet-main/models/Branchynet.py:166:19
+          -> (%res.5)
+      -> (%73)
+    block1():
+       = prim::RaiseException(%38) # /home/gr719/Downloads/Imperial Work 2021 Def/6. BranchyNet/earlyexitnet-main/models/Branchynet.py:187:19
+      -> (%53)
+  return (%62)
+ 
+
+SAVED TO:  outputs/onnx/test_out.onnx
+IMPORTING MODEL FROM ONNX
+RUNNING ONNX
+ONNX_OUT [array([[ -5.2730384 ,  -9.457968  ,   0.36775112,   2.4584002 ,
+        -14.24802   ,  -5.1130004 , -23.820545  ,  14.937973  ,
+         -2.2696238 ,   0.1079759 ]], dtype=float32)]
+ONNX_OUT2 [array([[-30.268309,  -9.430191,  -7.102646, -14.017675, -17.337181,
+        -12.39195 , -25.217695, -26.066809, -19.978045, -36.8964  ]],
+      dtype=float32)]
+(pt1_8_env) [gr719@ee-beholder0 earlyexitnet-main]$ pip install netron
+Collecting netron
+  Downloading netron-5.1.5-py2.py3-none-any.whl (1.3 MB)
+     |████████████████████████████████| 1.3 MB 11.6 MB/s 
+Installing collected packages: netron
+Successfully installed netron-5.1.5
+(pt1_8_env) [gr719@ee-beholder0 earlyexitnet-main]$ pip install netron
+Requirement already satisfied: netron in /home/gr719/anaconda3/envs/pt1_8_env/lib/python3.6/site-packages (5.1.5)
+(pt1_8_env) [gr719@ee-beholder0 earlyexitnet-main]$ 
+
