@@ -1,0 +1,94 @@
+(env_1) [gr719@ee-beholder0 MSDNet-PyTorch-master]$ python onnx_2.py --model brn --trained_path /home/gr719/Downloads/Imperial2021/1.MSDNet/MSDNet-PyTorch-master/outputs/save_models/model_best.pth.tar --save_name test_out --data-root /home/gr719/Downloads/Imperial2021/1.MSDNet/MSDNet-PyTorch-master/cifar-100-python/cifar-100-python --data cifar100 --arch msdnet --batch-size 64 --epochs 300 --nBlocks 7  --stepmode even --step 2 --base 4 --nChannels 16 -j 16
+5
+3
+1
+2
+2b
+6
+Running BranchyNet Test
+building network of steps: 
+[4, 2, 2, 2, 2, 2, 2] 16
+ ********************** Block 1  **********************
+<class 'int'>
+<class 'int'>
+<class 'int'>
+|		inScales 3 outScales 3 inChannels 16 outChannels 6		|
+
+|		inScales 3 outScales 3 inChannels 22 outChannels 6		|
+
+|		inScales 3 outScales 3 inChannels 28 outChannels 6		|
+
+|		inScales 3 outScales 3 inChannels 34 outChannels 6		|
+
+<class 'int'>
+<class 'int'>
+ ********************** Block 2  **********************
+|		inScales 3 outScales 3 inChannels 40 outChannels 6		|
+
+|		inScales 3 outScales 3 inChannels 46 outChannels 6		|
+
+<class 'int'>
+<class 'int'>
+ ********************** Block 3  **********************
+|		inScales 3 outScales 2 inChannels 52 outChannels 6		|
+<class 'int'>
+<class 'int'>
+|		Transition layer inserted! (max), inChannels 58, outChannels 29	|
+
+|		inScales 2 outScales 2 inChannels 29 outChannels 6		|
+
+<class 'int'>
+<class 'int'>
+ ********************** Block 4  **********************
+|		inScales 2 outScales 2 inChannels 35 outChannels 6		|
+
+|		inScales 2 outScales 2 inChannels 41 outChannels 6		|
+
+<class 'int'>
+<class 'int'>
+ ********************** Block 5  **********************
+|		inScales 2 outScales 2 inChannels 47 outChannels 6		|
+
+|		inScales 2 outScales 2 inChannels 53 outChannels 6		|
+
+<class 'int'>
+<class 'int'>
+ ********************** Block 6  **********************
+|		inScales 2 outScales 1 inChannels 59 outChannels 6		|
+<class 'int'>
+|		Transition layer inserted! (max), inChannels 65, outChannels 32	|
+
+|		inScales 1 outScales 1 inChannels 32 outChannels 6		|
+
+<class 'int'>
+<class 'int'>
+ ********************** Block 7  **********************
+|		inScales 1 outScales 1 inChannels 38 outChannels 6		|
+
+|		inScales 1 outScales 1 inChannels 44 outChannels 6		|
+
+<class 'int'>
+<class 'int'>
+STARTING RUN OF PYTORCH MODEL WITH INPUTS
+Traceback (most recent call last):
+  File "onnx_2.py", line 220, in <module>
+    main()
+  File "onnx_2.py", line 215, in main
+    brn_main(md_pth=args.trained_path, save_name=args.save_name, args=args)
+  File "onnx_2.py", line 143, in brn_main
+    output = model(test_x)
+  File "/home/gr719/anaconda3/envs/env_1/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/gr719/Downloads/Imperial2021/1.MSDNet/MSDNet-PyTorch-master/models/msdnet.py", line 342, in forward
+    x = self.blocks[i](x)
+  File "/home/gr719/anaconda3/envs/env_1/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/gr719/anaconda3/envs/env_1/lib/python3.7/site-packages/torch/nn/modules/container.py", line 139, in forward
+    input = module(input)
+  File "/home/gr719/anaconda3/envs/env_1/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/gr719/Downloads/Imperial2021/1.MSDNet/MSDNet-PyTorch-master/models/msdnet.py", line 165, in forward
+    inp = torch.tensor([x[0]])
+ValueError: only one element tensors can be converted to Python scalars
+(env_1) [gr719@ee-beholder0 MSDNet-PyTorch-master]$ 
+

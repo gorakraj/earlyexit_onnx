@@ -1,0 +1,33 @@
+(env_1) [gr719@ee-beholder0 MSDNet-PyTorch-master]$ python onnx_2.py --model brn --trained_path /home/gr719/Downloads/Imperial2021/1.MSDNet/MSDNet-PyTorch-master/outputs/save_models/model_best.pth.tar --save_name test_out --data-root /home/gr719/Downloads/Imperial2021/1.MSDNet/MSDNet-PyTorch-master/cifar-100-python/cifar-100-python --data cifar100 --arch msdnet --batch-size 64 --epochs 300 --nBlocks 7  --stepmode even --step 2 --base 4 --nChannels 16 -j 16
+5
+3
+1
+2
+2b
+6
+Running BranchyNet Test
+building network of steps: 
+[4, 2, 2, 2, 2, 2, 2] 16
+ ********************** Block 1  **********************
+Traceback (most recent call last):
+  File "onnx_2.py", line 205, in <module>
+    main()
+  File "onnx_2.py", line 200, in main
+    brn_main(md_pth=args.trained_path, save_name=args.save_name, args=args)
+  File "onnx_2.py", line 96, in brn_main
+    model = MSDNet(args)
+  File "/home/gr719/Downloads/Imperial2021/1.MSDNet/MSDNet-PyTorch-master/models/msdnet.py", line 226, in __init__
+    n_layers_all, n_layer_curr)
+  File "/home/gr719/Downloads/Imperial2021/1.MSDNet/MSDNet-PyTorch-master/models/msdnet.py", line 269, in _build_block
+    if n_layer_curr == 0 else []
+  File "/home/gr719/Downloads/Imperial2021/1.MSDNet/MSDNet-PyTorch-master/models/msdnet.py", line 96, in __init__
+    kernel=3, stride=1, padding=1))
+  File "/home/gr719/Downloads/Imperial2021/1.MSDNet/MSDNet-PyTorch-master/models/msdnet.py", line 12, in __init__
+    padding=padding, bias=False),
+  File "/home/gr719/anaconda3/envs/env_1/lib/python3.7/site-packages/torch/nn/modules/conv.py", line 327, in __init__
+    False, _pair(0), groups, bias, padding_mode)
+  File "/home/gr719/anaconda3/envs/env_1/lib/python3.7/site-packages/torch/nn/modules/conv.py", line 23, in __init__
+    if out_channels % groups != 0:
+TypeError: not all arguments converted during string formatting
+(env_1) [gr719@ee-beholder0 MSDNet-PyTorch-master]$ 
+

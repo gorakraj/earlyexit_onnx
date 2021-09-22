@@ -1,0 +1,463 @@
+(base) [gr719@ee-beholder0 ~]$ cd Downloads/
+(base) [gr719@ee-beholder0 Downloads]$ cd Imperial2021/1.MSDNet/MSDNet-PyTorch-master/
+(base) [gr719@ee-beholder0 MSDNet-PyTorch-master]$ python3 main.py --data-root /PATH/TO/CIFAR100 --data cifar100 --save /PATH/TO/SAVE \
+>                 --arch msdnet --batch-size 64 --epochs 300 --nBlocks 7 \
+>                 --stepmode even --step 2 --base 4 --nChannels 16 \
+>                 -j 16
+  File "main.py", line 164
+    target = target.cuda(async=True)
+                         ^
+SyntaxError: invalid syntax
+(base) [gr719@ee-beholder0 MSDNet-PyTorch-master]$ cd ..
+(base) [gr719@ee-beholder0 1.MSDNet]$ conda activate env_1.yaml 
+Could not find conda environment: env_1.yaml
+You can list all discoverable environments with `conda info --envs`.
+
+(base) [gr719@ee-beholder0 1.MSDNet]$ conda env create --file env_1.yaml
+
+EnvironmentSectionNotValid: The following section on '/home/gr719/Downloads/Imperial2021/1.MSDNet/env_1.yaml' is invalid and will be ignored:
+ - defendencies
+
+Collecting package metadata (repodata.json): done
+Solving environment: done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.10.1
+  latest version: 4.10.3
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+#
+# To activate this environment, use
+#
+#     $ conda activate base_env_simple
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+(base) [gr719@ee-beholder0 1.MSDNet]$ conda update -n base -c defaults conda
+
+Collecting package metadata (current_repodata.json): done
+Solving environment: done
+
+## Package Plan ##
+
+  environment location: /home/gr719/anaconda3
+
+  added / updated specs:
+    - conda
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    conda-4.10.3               |   py38h06a4308_0         2.9 MB
+    ------------------------------------------------------------
+                                           Total:         2.9 MB
+
+The following packages will be UPDATED:
+
+  conda                               4.10.1-py38h06a4308_1 --> 4.10.3-py38h06a4308_0
+
+
+Proceed ([y]/n)? 
+
+Downloading and Extracting Packages
+conda-4.10.3         | 2.9 MB    | ##################################### | 100% 
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+(base) [gr719@ee-beholder0 1.MSDNet]$ conda env create --file env_1.yaml
+
+EnvironmentSectionNotValid: The following section on '/home/gr719/Downloads/Imperial2021/1.MSDNet/env_1.yaml' is invalid and will be ignored:
+ - defendencies
+
+
+CondaValueError: prefix already exists: /home/gr719/anaconda3/envs/base_env_simple
+
+(base) [gr719@ee-beholder0 1.MSDNet]$ conda activate env_1.yaml 
+Could not find conda environment: env_1.yaml
+You can list all discoverable environments with `conda info --envs`.
+
+(base) [gr719@ee-beholder0 1.MSDNet]$ conda activate env_1
+Could not find conda environment: env_1
+You can list all discoverable environments with `conda info --envs`.
+
+(base) [gr719@ee-beholder0 1.MSDNet]$ conda activate env_1
+Could not find conda environment: env_1
+You can list all discoverable environments with `conda info --envs`.
+
+(base) [gr719@ee-beholder0 1.MSDNet]$ conda env create --file env_1.yaml
+
+EnvironmentSectionNotValid: The following section on '/home/gr719/Downloads/Imperial2021/1.MSDNet/env_1.yaml' is invalid and will be ignored:
+ - defendencies
+
+Collecting package metadata (repodata.json): done
+Solving environment: done
+^[[APreparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+#
+# To activate this environment, use
+#
+#     $ conda activate env_1
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+(base) [gr719@ee-beholder0 1.MSDNet]$ conda activate env_1
+(env_1) [gr719@ee-beholder0 1.MSDNet]$ python3 main.py --data-root /PATH/TO/CIFAR100 --data cifar100 --save /PATH/TO/SAVE \
+>                 --arch msdnet --batch-size 64 --epochs 300 --nBlocks 7 \
+>                 --stepmode even --step 2 --base 4 --nChannels 16 \
+>                 -j 16
+python3: can't open file 'main.py': [Errno 2] No such file or directory
+(env_1) [gr719@ee-beholder0 1.MSDNet]$ cd MSDNet-PyTorch-master/
+(env_1) [gr719@ee-beholder0 MSDNet-PyTorch-master]$ python3 main.py --data-root /PATH/TO/CIFAR100 --data cifar100 --save /PATH/TO/SAVE                 --arch msdnet --batch-size 64 --epochs 300 --nBlocks 7                 --stepmode even --step 2 --base 4 --nChannels 16                 -j 16
+  File "main.py", line 164
+    target = target.cuda(async=True)
+                         ^
+SyntaxError: invalid syntax
+(env_1) [gr719@ee-beholder0 MSDNet-PyTorch-master]$ python3 main.py --data-root /PATH/TO/CIFAR100 --data cifar100 --save /PATH/TO/SAVE                 --arch msdnet --batch-size 64 --epochs 300 --nBlocks 7                 --stepmode even --step 2 --base 4 --nChannels 16                 -j 16
+Traceback (most recent call last):
+  File "main.py", line 13, in <module>
+    from dataloader import get_dataloaders
+  File "/home/gr719/Downloads/Imperial2021/1.MSDNet/MSDNet-PyTorch-master/dataloader.py", line 1, in <module>
+    import torch
+ModuleNotFoundError: No module named 'torch'
+(env_1) [gr719@ee-beholder0 MSDNet-PyTorch-master]$ python3 main.py --data-root /PATH/TO/CIFAR100 --data cifar100 --save /PATH/TO/SAVE                 --arch msdnet --batch-size 64 --epochs 300 --nBlocks 7                 --stepmode even --step 2 --base 4 --nChannels 16                 -j 16
+Traceback (most recent call last):
+  File "main.py", line 13, in <module>
+    from dataloader import get_dataloaders
+  File "/home/gr719/Downloads/Imperial2021/1.MSDNet/MSDNet-PyTorch-master/dataloader.py", line 2, in <module>
+    import torchvision.datasets as dset
+ModuleNotFoundError: No module named 'torchvision'
+(env_1) [gr719@ee-beholder0 MSDNet-PyTorch-master]$ python3 main.py --data-root /PATH/TO/CIFAR100 --data cifar100 --save /PATH/TO/SAVE                 --arch msdnet --batch-size 64 --epochs 300 --nBlocks 7                 --stepmode even --step 2 --base 4 --nChannels 16                 -j 16
+Traceback (most recent call last):
+  File "main.py", line 351, in <module>
+    main()
+  File "main.py", line 54, in main
+    os.makedirs(args.save)
+  File "/home/gr719/anaconda3/lib/python3.8/os.py", line 213, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/home/gr719/anaconda3/lib/python3.8/os.py", line 213, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/home/gr719/anaconda3/lib/python3.8/os.py", line 223, in makedirs
+    mkdir(name, mode)
+PermissionError: [Errno 13] Permission denied: '/PATH'
+(env_1) [gr719@ee-beholder0 MSDNet-PyTorch-master]$ python3 main.py --data-root /PATH/TO/ImageNet --data ImageNet --save /PATH/TO/SAVE \
+>                 --arch msdnet --batch-size 256 --epochs 90 --nBlocks 5 \
+>                 --stepmode even --step 4 --base 4 --nChannels 32 --growthRate 16 \
+>                 --grFactor 1-2-4-4 --bnFactor 1-2-4-4 \
+>                 --evalmode dynamic --evaluate-from /PATH/TO/CHECKPOINT/ \
+>                 --use-valid --gpu 0,1,2,3 -j 16 \
+> 
+Traceback (most recent call last):
+  File "main.py", line 351, in <module>
+    main()
+  File "main.py", line 54, in main
+    os.makedirs(args.save)
+  File "/home/gr719/anaconda3/lib/python3.8/os.py", line 213, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/home/gr719/anaconda3/lib/python3.8/os.py", line 213, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/home/gr719/anaconda3/lib/python3.8/os.py", line 223, in makedirs
+    mkdir(name, mode)
+PermissionError: [Errno 13] Permission denied: '/PATH'
+(env_1) [gr719@ee-beholder0 MSDNet-PyTorch-master]$ python3 main.py --data-root /PATH/TO/CIFAR100 --data cifar100 --save /PATH/TO/SAVE                 --arch msdnet --batch-size 64 --epochs 300 --nBlocks 7                 --stepmode even --step 2 --base 4 --nChannels 16                 -j 16
+Traceback (most recent call last):
+  File "main.py", line 351, in <module>
+    main()
+  File "main.py", line 54, in main
+    os.makedirs(args.save)
+  File "/home/gr719/anaconda3/lib/python3.8/os.py", line 213, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/home/gr719/anaconda3/lib/python3.8/os.py", line 213, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/home/gr719/anaconda3/lib/python3.8/os.py", line 223, in makedirs
+    mkdir(name, mode)
+PermissionError: [Errno 13] Permission denied: '/PATH'
+(env_1) [gr719@ee-beholder0 MSDNet-PyTorch-master]$ chmod python3 main.py --data-root /PATH/TO/CIFAR100 --data cifar100 --save /PATH/TO/SAVE                 --arch msdnet --batch-size 64 --epochs 300 --nBlocks 7                 --stepmode even --step 2 --base 4 --nChannels 16                 -j 16
+chmod: unrecognized option '--data-root'
+Try 'chmod --help' for more information.
+(env_1) [gr719@ee-beholder0 MSDNet-PyTorch-master]$ python3 main.py --data-root //home/gr719/Downloads/Imperial2021/1.MSDNet/MSDNet-PyTorch-master/cifar-100-python --data cifar100 --save /PATH/TO/SAVE                 --arch msdnet --batch-size 64 --epochs 300 --nBlocks 7                 --stepmode even --step 2 --base 4 --nChannels 16                 -j 16
+Traceback (most recent call last):
+  File "main.py", line 351, in <module>
+    main()
+  File "main.py", line 54, in main
+    os.makedirs(args.save)
+  File "/home/gr719/anaconda3/lib/python3.8/os.py", line 213, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/home/gr719/anaconda3/lib/python3.8/os.py", line 213, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/home/gr719/anaconda3/lib/python3.8/os.py", line 223, in makedirs
+    mkdir(name, mode)
+PermissionError: [Errno 13] Permission denied: '/PATH'
+(env_1) [gr719@ee-beholder0 MSDNet-PyTorch-master]$ python3 main.py --data-root /home/gr719/Downloads/Imperial2021/1.MSDNet/MSDNet-PyTorch-master/cifar-100-python --data cifar100 --save /PATH/TO/SAVE                 --arch msdnet --batch-size 64 --epochs 300 --nBlocks 7                 --stepmode even --step 2 --base 4 --nChannels 16                 -j 16
+Traceback (most recent call last):
+  File "main.py", line 351, in <module>
+    main()
+  File "main.py", line 54, in main
+    os.makedirs(args.save)
+  File "/home/gr719/anaconda3/lib/python3.8/os.py", line 213, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/home/gr719/anaconda3/lib/python3.8/os.py", line 213, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/home/gr719/anaconda3/lib/python3.8/os.py", line 223, in makedirs
+    mkdir(name, mode)
+PermissionError: [Errno 13] Permission denied: '/PATH'
+(env_1) [gr719@ee-beholder0 MSDNet-PyTorch-master]$ python3 main.py --data-root (env_1) [gr719@ee-beholder0 MSDNet-PyTorch-master]$ python3 main.py --data-root /home/gr719/Downloads/Imperial2021/1.MSDNet/MSDNet-PyTorch-master/cifar-100-python --data cifar100 --save /home/gr719/Downloads/Imperial2021/1.MSDNet/MSDNet-PyTorch-master/outputs                 --arch msdnet --batch-size 64 --epochs 300 --nBlocks 7                 --stepmode even --step 2 --base 4 --nChannels 16                 -j 16
+building network of steps: 
+[4, 2, 2, 2, 2, 2, 2] 16
+ ********************** Block 1  **********************
+|		inScales 3 outScales 3 inChannels 16 outChannels 6		|
+
+|		inScales 3 outScales 3 inChannels 22 outChannels 6		|
+
+|		inScales 3 outScales 3 inChannels 28 outChannels 6		|
+
+|		inScales 3 outScales 3 inChannels 34 outChannels 6		|
+
+ ********************** Block 2  **********************
+|		inScales 3 outScales 3 inChannels 40 outChannels 6		|
+
+|		inScales 3 outScales 3 inChannels 46 outChannels 6		|
+
+ ********************** Block 3  **********************
+|		inScales 3 outScales 2 inChannels 52 outChannels 6		|
+|		Transition layer inserted! (max), inChannels 58, outChannels 29|
+
+|		inScales 2 outScales 2 inChannels 29 outChannels 6		|
+
+ ********************** Block 4  **********************
+|		inScales 2 outScales 2 inChannels 35 outChannels 6		|
+
+|		inScales 2 outScales 2 inChannels 41 outChannels 6		|
+
+ ********************** Block 5  **********************
+|		inScales 2 outScales 2 inChannels 47 outChannels 6		|
+
+|		inScales 2 outScales 2 inChannels 53 outChannels 6		|
+
+ ********************** Block 6  **********************
+|		inScales 2 outScales 1 inChannels 59 outChannels 6		|
+|		Transition layer inserted! (max), inChannels 65, outChannels 32|
+
+|		inScales 1 outScales 1 inChannels 32 outChannels 6		|
+
+ ********************** Block 7  **********************
+|		inScales 1 outScales 1 inChannels 38 outChannels 6		|
+
+|		inScales 1 outScales 1 inChannels 44 outChannels 6		|
+
+---------------------
+FLOPs: 15.14M, Params: 0.43M
+---------------------
+FLOPs: 25.51M, Params: 0.88M
+---------------------
+FLOPs: 37.10M, Params: 1.27M
+---------------------
+FLOPs: 46.33M, Params: 1.70M
+---------------------
+FLOPs: 57.34M, Params: 2.18M
+---------------------
+FLOPs: 66.96M, Params: 2.60M
+---------------------
+FLOPs: 75.94M, Params: 3.07M
+building network of steps: 
+[4, 2, 2, 2, 2, 2, 2] 16
+ ********************** Block 1  **********************
+|		inScales 3 outScales 3 inChannels 16 outChannels 6		|
+
+|		inScales 3 outScales 3 inChannels 22 outChannels 6		|
+
+|		inScales 3 outScales 3 inChannels 28 outChannels 6		|
+
+|		inScales 3 outScales 3 inChannels 34 outChannels 6		|
+
+ ********************** Block 2  **********************
+|		inScales 3 outScales 3 inChannels 40 outChannels 6		|
+
+|		inScales 3 outScales 3 inChannels 46 outChannels 6		|
+
+ ********************** Block 3  **********************
+|		inScales 3 outScales 2 inChannels 52 outChannels 6		|
+|		Transition layer inserted! (max), inChannels 58, outChannels 29|
+
+|		inScales 2 outScales 2 inChannels 29 outChannels 6		|
+
+ ********************** Block 4  **********************
+|		inScales 2 outScales 2 inChannels 35 outChannels 6		|
+
+|		inScales 2 outScales 2 inChannels 41 outChannels 6		|
+
+ ********************** Block 5  **********************
+|		inScales 2 outScales 2 inChannels 47 outChannels 6		|
+
+|		inScales 2 outScales 2 inChannels 53 outChannels 6		|
+
+ ********************** Block 6  **********************
+|		inScales 2 outScales 1 inChannels 59 outChannels 6		|
+|		Transition layer inserted! (max), inChannels 65, outChannels 32|
+
+|		inScales 1 outScales 1 inChannels 32 outChannels 6		|
+
+ ********************** Block 7  **********************
+|		inScales 1 outScales 1 inChannels 38 outChannels 6		|
+
+|		inScales 1 outScales 1 inChannels 44 outChannels 6		|
+
+Traceback (most recent call last):
+  File "main.py", line 351, in <module>
+    main()
+  File "main.py", line 73, in main
+    model = torch.nn.DataParallel(model).cuda()
+  File "/home/gr719/anaconda3/lib/python3.8/site-packages/torch/nn/modules/module.py", line 637, in cuda
+    return self._apply(lambda t: t.cuda(device))
+  File "/home/gr719/anaconda3/lib/python3.8/site-packages/torch/nn/modules/module.py", line 530, in _apply
+    module._apply(fn)
+  File "/home/gr719/anaconda3/lib/python3.8/site-packages/torch/nn/modules/module.py", line 530, in _apply
+    module._apply(fn)
+  File "/home/gr719/anaconda3/lib/python3.8/site-packages/torch/nn/modules/module.py", line 530, in _apply
+    module._apply(fn)
+  [Previous line repeated 5 more times]
+  File "/home/gr719/anaconda3/lib/python3.8/site-packages/torch/nn/modules/module.py", line 552, in _apply
+    param_applied = fn(param)
+  File "/home/gr719/anaconda3/lib/python3.8/site-packages/torch/nn/modules/module.py", line 637, in <lambda>
+    return self._apply(lambda t: t.cuda(device))
+  File "/home/gr719/anaconda3/lib/python3.8/site-packages/torch/cuda/__init__.py", line 172, in _lazy_init
+    torch._C._cuda_init()
+RuntimeError: Found no NVIDIA driver on your system. Please check that you have an NVIDIA GPU and installed a driver from http://www.nvidia.com/Download/index.aspx
+(env_1) [gr719@ee-beholder0 MSDNet-PyTorch-master]$ python3 main.py --data-root /home/gr719/Downloads/Imperial2021/1.MSDNet/MSDNet-PyTorch-master/cifar-100-python --data cifar100 --save /home/gr719/Downloads/Imperial2021/1.MSDNet/MSDNet-PyTorch-master/outputs                 --arch msdnet --batch-size 64 --epochs 300 --nBlocks 7                 --stepmode even --step 2 --base 4 --nChannels 16                 -j 16
+building network of steps: 
+[4, 2, 2, 2, 2, 2, 2] 16
+ ********************** Block 1  **********************
+|		inScales 3 outScales 3 inChannels 16 outChannels 6		|
+
+|		inScales 3 outScales 3 inChannels 22 outChannels 6		|
+
+|		inScales 3 outScales 3 inChannels 28 outChannels 6		|
+
+|		inScales 3 outScales 3 inChannels 34 outChannels 6		|
+
+ ********************** Block 2  **********************
+|		inScales 3 outScales 3 inChannels 40 outChannels 6		|
+
+|		inScales 3 outScales 3 inChannels 46 outChannels 6		|
+
+ ********************** Block 3  **********************
+|		inScales 3 outScales 2 inChannels 52 outChannels 6		|
+|		Transition layer inserted! (max), inChannels 58, outChannels 29	|
+
+|		inScales 2 outScales 2 inChannels 29 outChannels 6		|
+
+ ********************** Block 4  **********************
+|		inScales 2 outScales 2 inChannels 35 outChannels 6		|
+
+|		inScales 2 outScales 2 inChannels 41 outChannels 6		|
+
+ ********************** Block 5  **********************
+|		inScales 2 outScales 2 inChannels 47 outChannels 6		|
+
+|		inScales 2 outScales 2 inChannels 53 outChannels 6		|
+
+ ********************** Block 6  **********************
+|		inScales 2 outScales 1 inChannels 59 outChannels 6		|
+|		Transition layer inserted! (max), inChannels 65, outChannels 32	|
+
+|		inScales 1 outScales 1 inChannels 32 outChannels 6		|
+
+ ********************** Block 7  **********************
+|		inScales 1 outScales 1 inChannels 38 outChannels 6		|
+
+|		inScales 1 outScales 1 inChannels 44 outChannels 6		|
+
+---------------------
+FLOPs: 15.14M, Params: 0.43M
+---------------------
+FLOPs: 25.51M, Params: 0.88M
+---------------------
+FLOPs: 37.10M, Params: 1.27M
+---------------------
+FLOPs: 46.33M, Params: 1.70M
+---------------------
+FLOPs: 57.34M, Params: 2.18M
+---------------------
+FLOPs: 66.96M, Params: 2.60M
+---------------------
+FLOPs: 75.94M, Params: 3.07M
+building network of steps: 
+[4, 2, 2, 2, 2, 2, 2] 16
+ ********************** Block 1  **********************
+|		inScales 3 outScales 3 inChannels 16 outChannels 6		|
+
+|		inScales 3 outScales 3 inChannels 22 outChannels 6		|
+
+|		inScales 3 outScales 3 inChannels 28 outChannels 6		|
+
+|		inScales 3 outScales 3 inChannels 34 outChannels 6		|
+
+ ********************** Block 2  **********************
+|		inScales 3 outScales 3 inChannels 40 outChannels 6		|
+
+|		inScales 3 outScales 3 inChannels 46 outChannels 6		|
+
+ ********************** Block 3  **********************
+|		inScales 3 outScales 2 inChannels 52 outChannels 6		|
+|		Transition layer inserted! (max), inChannels 58, outChannels 29	|
+
+|		inScales 2 outScales 2 inChannels 29 outChannels 6		|
+
+ ********************** Block 4  **********************
+|		inScales 2 outScales 2 inChannels 35 outChannels 6		|
+
+|		inScales 2 outScales 2 inChannels 41 outChannels 6		|
+
+ ********************** Block 5  **********************
+|		inScales 2 outScales 2 inChannels 47 outChannels 6		|
+
+|		inScales 2 outScales 2 inChannels 53 outChannels 6		|
+
+ ********************** Block 6  **********************
+|		inScales 2 outScales 1 inChannels 59 outChannels 6		|
+|		Transition layer inserted! (max), inChannels 65, outChannels 32	|
+
+|		inScales 1 outScales 1 inChannels 32 outChannels 6		|
+
+ ********************** Block 7  **********************
+|		inScales 1 outScales 1 inChannels 38 outChannels 6		|
+
+|		inScales 1 outScales 1 inChannels 44 outChannels 6		|
+
+Traceback (most recent call last):
+  File "main.py", line 351, in <module>
+    main()
+  File "main.py", line 73, in main
+    model = torch.nn.DataParallel(model).cuda()
+  File "/home/gr719/anaconda3/lib/python3.8/site-packages/torch/nn/modules/module.py", line 637, in cuda
+    return self._apply(lambda t: t.cuda(device))
+  File "/home/gr719/anaconda3/lib/python3.8/site-packages/torch/nn/modules/module.py", line 530, in _apply
+    module._apply(fn)
+  File "/home/gr719/anaconda3/lib/python3.8/site-packages/torch/nn/modules/module.py", line 530, in _apply
+    module._apply(fn)
+  File "/home/gr719/anaconda3/lib/python3.8/site-packages/torch/nn/modules/module.py", line 530, in _apply
+    module._apply(fn)
+  [Previous line repeated 5 more times]
+  File "/home/gr719/anaconda3/lib/python3.8/site-packages/torch/nn/modules/module.py", line 552, in _apply
+    param_applied = fn(param)
+  File "/home/gr719/anaconda3/lib/python3.8/site-packages/torch/nn/modules/module.py", line 637, in <lambda>
+    return self._apply(lambda t: t.cuda(device))
+  File "/home/gr719/anaconda3/lib/python3.8/site-packages/torch/cuda/__init__.py", line 172, in _lazy_init
+    torch._C._cuda_init()
+RuntimeError: Found no NVIDIA driver on your system. Please check that you have an NVIDIA GPU and installed a driver from http://www.nvidia.com/Download/index.aspx
+(env_1) [gr719@ee-beholder0 MSDNet-PyTorch-master]$ 
+

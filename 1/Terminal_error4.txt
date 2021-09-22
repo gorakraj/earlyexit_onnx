@@ -1,0 +1,38 @@
+(env_1) [gr719@ee-beholder0 MSDNet-PyTorch-master]$ python onnx_2.py --model brn --trained_path /home/gr719/Downloads/Imperial2021/1.MSDNet/MSDNet-PyTorch-master/outputs/save_models/model_best.pth.tar --save_name test_out --data-root /home/gr719/Downloads/Imperial2021/1.MSDNet/MSDNet-PyTorch-master/cifar-100-python/cifar-100-python --data cifar100 --arch msdnet --batch-size 64 --epochs 300 --nBlocks 7  --stepmode even --step 2 --base 4 --nChannels 16 -j 16
+5
+3
+1
+2
+2b
+6
+Running BranchyNet Test
+building network of steps: 
+[4, 2, 2, 2, 2, 2, 2] 16
+ ********************** Block 1  **********************
+TESTLOCATOR2 16 [1, 2, 4] 1
+TESTLOCATOR 3 16 3 1 1
+<class 'int'>
+TESTLOCATOR 16 32 3 2 1
+<class 'int'>
+TESTLOCATOR 32 64 3 2 1
+<class 'int'>
+|		inScales 3 outScales 3 inChannels 16 outChannels 6		|
+
+|		inScales 3 outScales 3 inChannels 22 outChannels 6		|
+
+|		inScales 3 outScales 3 inChannels 28 outChannels 6		|
+
+|		inScales 3 outScales 3 inChannels 34 outChannels 6		|
+
+Traceback (most recent call last):
+  File "onnx_2.py", line 205, in <module>
+    main()
+  File "onnx_2.py", line 200, in main
+    brn_main(md_pth=args.trained_path, save_name=args.save_name, args=args)
+  File "onnx_2.py", line 96, in brn_main
+    model = MSDNet(args)
+  File "/home/gr719/Downloads/Imperial2021/1.MSDNet/MSDNet-PyTorch-master/models/msdnet.py", line 235, in __init__
+    self._build_classifier_cifar(nIn * int(args.grFactor[-1], 100)))
+ValueError: int() base must be >= 2 and <= 36, or 0
+(env_1) [gr719@ee-beholder0 MSDNet-PyTorch-master]$ 
+

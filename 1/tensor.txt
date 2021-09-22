@@ -1,0 +1,5 @@
+    def forward(self, x):
+        res = torch.tensor([x[1],
+               self.conv_down(x[0]),
+               self.conv_normal(x[1])])
+        return torch.cat(res, dim=1)
