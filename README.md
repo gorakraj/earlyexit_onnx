@@ -6,18 +6,18 @@ This is a collection of benchmark papers for Early Exit neural networks from rec
 
 Initially started with the following 10 papers relevant to Vision/Classification Tasks:
 
-| No. | Title  | Task | Link to paper | Link to code | Code format | Works with FPGAconvnet | Comments |
+| No. | Title  | Task | Link to paper | Link to code | Code format | Works with FPGAconvnet |
 | - | - | - | - | - | - | - | - |
-| 1 | MSDNet | Vision / Classification | https://arxiv.org/abs/1703.09844 | https://github.com/kalviny/MSDNet-PyTorch | PyTorch | Yes |  |
-| 2 | Not all pixels are equal | Vision / Segmentation | https://arxiv.org/abs/1704.01344 | https://github.com/liuziwei7/region-conv | Caffe | No |  |
-| 3 | Phuong et al. | Vision / Classification | https://openaccess.thecvf.com/content_ICCV_2019/html/Phuong_Distillation-Based_Training_for_Multi-Exit_Architectures_ICCV_2019_paper.html | https://github.com/mary-phuong/multiexit-distillation | PyTorch | No |  |
-| 4 | RBQE | Vision / Enhancement | https://arxiv.org/abs/2006.16581 | https://github.com/RyanXingQL/RBQE | MATLAB | No |  |
-| 5 | MonoBERT | IR / Document Ranking | https://aclanthology.org/2020.sustainlp-1.11/ | https://github.com/castorini/earlyexiting-monobert | PyTorch | No |  |
-| 6 | BranchyNet | Vision / Classification | https://arxiv.org/abs/1709.01686 | https://github.com/kunglab/branchynet | PyTorch | Yes |  |
-| 7 | SDN | Vision / Classification | https://arxiv.org/abs/1810.07052 | https://github.com/gmum/Zero-Time-Waste | PyTorch | No |  |
-| 8 | L2Stop | Vision / {Classification, Denoising} | https://arxiv.org/abs/2006.05082 | https://github.com/xinshi-chen/l2stop | PyTorch | Yes |  |
-| 9 | Triple-wins |  Vision / Classification| https://arxiv.org/abs/2002.10025 | https://github.com/VITA-Group/triple-wins | PyTorch | Yes |  |
-| 10 | DeepSloth | Vision / Classification | https://arxiv.org/abs/2010.02432 | https://github.com/sanghyun-hong/deepsloth | PyTorch | No |  |
+| 1 | MSDNet | Vision / Classification | https://arxiv.org/abs/1703.09844 | https://github.com/kalviny/MSDNet-PyTorch | PyTorch | Yes |  
+| 2 | Not all pixels are equal | Vision / Segmentation | https://arxiv.org/abs/1704.01344 | https://github.com/liuziwei7/region-conv | Caffe | No |  
+| 3 | Phuong et al. | Vision / Classification | https://openaccess.thecvf.com/content_ICCV_2019/html/Phuong_Distillation-Based_Training_for_Multi-Exit_Architectures_ICCV_2019_paper.html | https://github.com/mary-phuong/multiexit-distillation | PyTorch | No |  
+| 4 | RBQE | Vision / Enhancement | https://arxiv.org/abs/2006.16581 | https://github.com/RyanXingQL/RBQE | MATLAB | No |  
+| 5 | MonoBERT | IR / Document Ranking | https://aclanthology.org/2020.sustainlp-1.11/ | https://github.com/castorini/earlyexiting-monobert | PyTorch | No |  
+| 6 | BranchyNet | Vision / Classification | https://arxiv.org/abs/1709.01686 | https://github.com/kunglab/branchynet | PyTorch | Yes |  
+| 7 | SDN | Vision / Classification | https://arxiv.org/abs/1810.07052 | https://github.com/gmum/Zero-Time-Waste | PyTorch | No |  
+| 8 | L2Stop | Vision / {Classification, Denoising} | https://arxiv.org/abs/2006.05082 | https://github.com/xinshi-chen/l2stop | PyTorch | Yes |  
+| 9 | Triple-wins |  Vision / Classification| https://arxiv.org/abs/2002.10025 | https://github.com/VITA-Group/triple-wins | PyTorch | Yes |  
+| 10 | DeepSloth | Vision / Classification | https://arxiv.org/abs/2010.02432 | https://github.com/sanghyun-hong/deepsloth | PyTorch | No |  
 
 
 
