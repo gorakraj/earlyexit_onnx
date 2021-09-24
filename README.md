@@ -1,6 +1,6 @@
 # EEE
 
-# An Early Exit Neural Network bencmark repository in .onnx format 
+# An Early Exit Neural Network benchmark repository in .onnx format 
 
 This is a collection of benchmark papers for Early Exit neural networks from recent literature. The start point was the survey paper by researchers at SamsungAI, https://arxiv.org/abs/2106.05022. [see Table 1 on page 5]
 
@@ -39,7 +39,7 @@ The project goal was to convert these codebases into .onnx formats. At the momen
   
 The onnx export for paper 1 is nearly complete - there are just some parts of msdnet that need to be adapted for it to work. Error messages will be included as well.
 
-Paper 8 also has some issues sourcing TinyImageNet and running it (section 5.4 in the github repo). The LISTA-stop stage 2 training also does not seem to work (section 5.1).
+Paper 8 also has some issues sourcing TinyImageNet and running it (section 5.4 in the github repo). The LISTA-stop stage 2 training also does not seem to work (section 5.1). Redownload the files from https://github.com/xinshi-chen/l2stop (some files too big to upload to github) but save the onnx_2 file elsewhere and add it after.
 
 
 **Useful Notes:**
