@@ -44,7 +44,7 @@ Paper 8 also has some issues sourcing TinyImageNet and running it (section 5.4 i
 
 **Useful Notes:**
 
-In each folder there is an environment .yaml file with the packages required (env_1, env_6, env_8 and env_9). OInstall the environments and activate the relevant file with "conda active env_x" before running.
+In each folder there is an environment .yaml file with the packages required (env_1, env_6, env_8 and env_9). Install the environments and activate the relevant file with "conda activate env_x" before running.
 
 When adapting the onnx export files from papers 6 and 9 to use on 1 and 8, use the file onnx_2.py as a base.
 
