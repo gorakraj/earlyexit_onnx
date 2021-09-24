@@ -1,6 +1,6 @@
-# EEE
+# earlyexit_onnx
 
-# An Early Exit Neural Network benchmark repository in .onnx format 
+# A benchmark repository of Early Exit Neural Networks in .onnx format
 
 This is a collection of benchmark papers for Early Exit neural networks from recent literature. The start point was the survey paper by researchers at SamsungAI, https://arxiv.org/abs/2106.05022. [see Table 1 on page 5]
 
@@ -43,6 +43,8 @@ Paper 8 also has some issues sourcing TinyImageNet and running it (section 5.4 i
 
 
 **Useful Notes:**
+
+Individual READMEs are present in the main folder of each network
 
 In each folder there is an environment .yaml file with the packages required (env_1, env_6, env_8 and env_9). Install the environments and activate the relevant file with "conda activate env_x" before running.
 
