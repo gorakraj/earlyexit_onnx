@@ -1,0 +1,23 @@
+name: env_8
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - python
+  - pytorch
+  - torchvision
+  - cudatoolkit
+  - numpy
+  - tqdm
+  - tensorboardX
+  - boto3
+  - regex
+  - scikit-learn
+  - pip:
+    - onnx==1.8.1
+    - onnxruntime==1.7.0
+    - protobuf==3.15.6
+    - sentencepiece
+    - sacremoses
+prefix: /home/gorak/anaconda3/envs/env_8
+ 

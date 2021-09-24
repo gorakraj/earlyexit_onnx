@@ -1,0 +1,839 @@
+(base) [gr719@ee-beholder0 ~]$ cd Downloads/Imperial2021/8.Learning\ to\ Stop/
+(base) [gr719@ee-beholder0 8.Learning to Stop]$ cd l2stop-master/
+dncnn_stop/          lista_stop.egg-info/ sdn_stop/
+lista_stop/          maml_stop/           
+(base) [gr719@ee-beholder0 8.Learning to Stop]$ cd l2stop-master/
+(base) [gr719@ee-beholder0 l2stop-master]$ cd
+cd                 cdda-player        cd-info            cdrdao
+cd-create-profile  cd-drive           cd-it8             cd-read
+cdda2ogg           cd-fix-profile     cdparanoia         cdrecord
+cdda2wav           cd-iccdump         cd-paranoia        
+(base) [gr719@ee-beholder0 l2stop-master]$ cd 
+dncnn_stop/          lista_stop.egg-info/ sdn_stop/
+lista_stop/          maml_stop/           
+(base) [gr719@ee-beholder0 l2stop-master]$ cd dncnn_stop/
+(base) [gr719@ee-beholder0 dncnn_stop]$ conda env create -f environment.yml
+Collecting package metadata (repodata.json): done
+Solving environment: done
+
+Downloading and Extracting Packages
+pyparsing-2.4.5      | 58 KB     | ##################################### | 100% 
+tqdm-4.40.2          | 44 KB     | ##################################### | 100% 
+setuptools-42.0.2    | 636 KB    | ##################################### | 100% 
+wheel-0.33.6         | 35 KB     | ##################################### | 100% 
+pywavelets-1.1.1     | 4.4 MB    | ##################################### | 100% 
+pandas-0.25.3        | 8.8 MB    | ##################################### | 100% 
+scipy-1.3.2          | 13.9 MB   | ##################################### | 100% 
+six-1.13.0           | 22 KB     | ##################################### | 100% 
+ptyprocess-0.6.0     | 22 KB     | ##################################### | 100% 
+toolz-0.10.0         | 46 KB     | ##################################### | 100% 
+pyqt-5.9.2           | 4.5 MB    | ##################################### | 100% 
+python-3.7.5         | 32.2 MB   | ##################################### | 100% 
+wcwidth-0.1.7        | 22 KB     | ##################################### | 100% 
+kiwisolver-1.1.0     | 82 KB     | ##################################### | 100% 
+tornado-6.0.3        | 584 KB    | ##################################### | 100% 
+cytoolz-0.10.1       | 432 KB    | ##################################### | 100% 
+pip-19.3.1           | 1.9 MB    | ##################################### | 100% 
+mkl_fft-1.0.15       | 154 KB    | ##################################### | 100% 
+_libgcc_mutex-0.1    | 2 KB      | ##################################### | 100% 
+cffi-1.13.2          | 224 KB    | ##################################### | 100% 
+mkl-2019.4           | 131.2 MB  | ##################################### | 100% 
+pycparser-2.19       | 87 KB     | ##################################### | 100% 
+pygments-2.5.2       | 669 KB    | ##################################### | 100% 
+pickleshare-0.7.5    | 13 KB     | ##################################### | 100% 
+icu-58.2             | 10.3 MB   | ##################################### | 100% 
+libxcb-1.13          | 421 KB    | ##################################### | 100% 
+sip-4.19.8           | 274 KB    | ##################################### | 100% 
+dask-core-2.9.0      | 581 KB    | ##################################### | 100% 
+parso-0.5.2          | 66 KB     | ##################################### | 100% 
+glib-2.63.1          | 2.9 MB    | ##################################### | 100% 
+ca-certificates-2019 | 145 KB    | ##################################### | 100% 
+openssl-1.1.1d       | 2.1 MB    | ##################################### | 100% 
+fontconfig-2.13.0    | 227 KB    | ##################################### | 100% 
+pcre-8.43            | 209 KB    | ##################################### | 100% 
+ipython-7.10.2       | 975 KB    | ##################################### | 100% 
+pexpect-4.7.0        | 78 KB     | ##################################### | 100% 
+scikit-image-0.16.2  | 25.0 MB   | ##################################### | 100% 
+pytz-2019.3          | 237 KB    | ##################################### | 100% 
+cloudpickle-1.2.2    | 23 KB     | ##################################### | 100% 
+prompt_toolkit-3.0.2 | 226 KB    | ##################################### | 100% 
+imageio-2.6.1        | 3.3 MB    | ##################################### | 100% 
+mkl_random-1.1.0     | 321 KB    | ##################################### | 100% 
+gstreamer-1.14.0     | 3.1 MB    | ##################################### | 100% 
+dbus-1.13.12         | 501 KB    | ##################################### | 100% 
+certifi-2019.11.28   | 148 KB    | ##################################### | 100% 
+expat-2.2.6          | 146 KB    | ##################################### | 100% 
+blas-1.0             | 1 KB      | ##################################### | 100% 
+networkx-2.4         | 1.2 MB    | ##################################### | 100% 
+h5py-2.9.0           | 991 KB    | ##################################### | 100% 
+xz-5.2.4             | 283 KB    | ##################################### | 100% 
+traitlets-4.3.3      | 133 KB    | ##################################### | 100% 
+ninja-1.9.0          | 1.2 MB    | ##################################### | 100% 
+pillow-6.2.1         | 588 KB    | ##################################### | 100% 
+python-dateutil-2.8. | 220 KB    | ##################################### | 100% 
+libffi-3.2.1         | 40 KB     | ##################################### | 100% 
+ipython_genutils-0.2 | 39 KB     | ##################################### | 100% 
+matplotlib-base-3.1. | 6.6 MB    | ##################################### | 100% 
+decorator-4.4.1      | 11 KB     | ##################################### | 100% 
+ncurses-6.1          | 777 KB    | ##################################### | 100% 
+tk-8.6.10            | 3.2 MB    | ##################################### | 100% 
+olefile-0.46         | 31 KB     | ##################################### | 100% 
+zstd-1.3.7           | 401 KB    | ##################################### | 100% 
+matplotlib-3.1.1     | 5.0 MB    | ##################################### | 100% 
+libtiff-4.1.0        | 447 KB    | ##################################### | 100% 
+libedit-3.1.20181209 | 163 KB    | ##################################### | 100% 
+freetype-2.9.1       | 550 KB    | ##################################### | 100% 
+backcall-0.1.0       | 20 KB     | ##################################### | 100% 
+sqlite-3.30.1        | 1.1 MB    | ##################################### | 100% 
+cycler-0.10.0        | 13 KB     | ##################################### | 100% 
+jedi-0.15.1          | 718 KB    | ##################################### | 100% 
+gst-plugins-base-1.1 | 4.8 MB    | ##################################### | 100% 
+mkl-service-2.3.0    | 218 KB    | ##################################### | 100% 
+numpy-base-1.17.4    | 4.1 MB    | ##################################### | 100% 
+numpy-1.17.4         | 5 KB      | ##################################### | 100% 
+libxml2-2.9.9        | 1.6 MB    | ##################################### | 100% 
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+Installing pip dependencies: | Ran pip subprocess with arguments:
+['/home/gr719/anaconda3/envs/dncnn_stop/bin/python', '-m', 'pip', 'install', '-U', '-r', '/home/gr719/Downloads/Imperial2021/8.Learning to Stop/l2stop-master/dncnn_stop/condaenv.upr4dkap.requirements.txt']
+Pip subprocess output:
+Requirement already up-to-date: dask==2.9.0 in /home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages (from -r /home/gr719/Downloads/Imperial2021/8.Learning to Stop/l2stop-master/dncnn_stop/condaenv.upr4dkap.requirements.txt (line 1)) (2.9.0)
+Collecting opencv-python==4.1.2.30
+  Downloading https://files.pythonhosted.org/packages/d8/38/60de02a4c9013b14478a3f681a62e003c7489d207160a4d7df8705a682e7/opencv_python-4.1.2.30-cp37-cp37m-manylinux1_x86_64.whl (28.3MB)
+Collecting protobuf==3.11.2
+  Downloading https://files.pythonhosted.org/packages/4a/14/f5c294f1e36a031f165128c25feba93b3116f15a74398d0b2747ed75744f/protobuf-3.11.2-cp37-cp37m-manylinux1_x86_64.whl (1.3MB)
+Collecting tensorboardx==1.9
+  Downloading https://files.pythonhosted.org/packages/a6/5c/e918d9f190baab8d55bad52840d8091dd5114cc99f03eaa6d72d404503cc/tensorboardX-1.9-py2.py3-none-any.whl (190kB)
+Requirement already up-to-date: torch==1.3.1 in /home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages (from -r /home/gr719/Downloads/Imperial2021/8.Learning to Stop/l2stop-master/dncnn_stop/condaenv.upr4dkap.requirements.txt (line 5)) (1.3.1)
+Requirement already satisfied, skipping upgrade: numpy>=1.14.5 in /home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages (from opencv-python==4.1.2.30->-r /home/gr719/Downloads/Imperial2021/8.Learning to Stop/l2stop-master/dncnn_stop/condaenv.upr4dkap.requirements.txt (line 2)) (1.17.4)
+Requirement already satisfied, skipping upgrade: setuptools in /home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages (from protobuf==3.11.2->-r /home/gr719/Downloads/Imperial2021/8.Learning to Stop/l2stop-master/dncnn_stop/condaenv.upr4dkap.requirements.txt (line 3)) (42.0.2.post20191201)
+Requirement already satisfied, skipping upgrade: six>=1.9 in /home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages (from protobuf==3.11.2->-r /home/gr719/Downloads/Imperial2021/8.Learning to Stop/l2stop-master/dncnn_stop/condaenv.upr4dkap.requirements.txt (line 3)) (1.13.0)
+Installing collected packages: opencv-python, protobuf, tensorboardx
+Successfully installed opencv-python-4.1.2.30 protobuf-3.11.2 tensorboardx-1.9
+
+done
+#
+# To activate this environment, use
+#
+#     $ conda activate dncnn_stop
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+(base) [gr719@ee-beholder0 dncnn_stop]$ source activate dncnn_stop
+(dncnn_stop) [gr719@ee-beholder0 dncnn_stop]$ # pretrain the model
+(dncnn_stop) [gr719@ee-beholder0 dncnn_stop]$ python -u train.py --model DnCNN --outf logs/dncnn_b_l20_all_train_n55 \
+> --num_of_layers 20 --batchSize 256 --epoch 50
+In total, using 0 GPUs
+Namespace(batchSize=256, data_folder='./', epochs=50, freeze=False, lr=0.001, maxnoise=55, maxtao=10, milestone=25, mintao=0.0001, mode='B', model='DnCNN', noiseL=35, num_of_layers=20, num_out=5, num_workers=12, outf='logs/dncnn_b_l20_all_train_n55', preprocess=False, pretrain=False, pretrain_path='', random_seed=0, restart=False, tao=1, taoepoch=5, taostep=10, train_all=False, val_noiseL=35, val_ratio=0)
+Loading dataset ...
+
+Traceback (most recent call last):
+  File "train.py", line 247, in <module>
+    main()
+  File "train.py", line 62, in main
+    dataset_train = Dataset(train=True, data_folder=opt.data_folder)
+  File "/home/gr719/Downloads/Imperial2021/8.Learning to Stop/l2stop-master/dncnn_stop/dataset.py", line 80, in __init__
+    h5f = h5py.File(os.path.join(self.data_folder, 'train.h5'), 'r')
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/h5py/_hl/files.py", line 394, in __init__
+    swmr=swmr)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/h5py/_hl/files.py", line 170, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5f.pyx", line 85, in h5py.h5f.open
+OSError: Unable to open file (unable to open file: name = './train.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+(dncnn_stop) [gr719@ee-beholder0 dncnn_stop]$ 
+(dncnn_stop) [gr719@ee-beholder0 dncnn_stop]$ # fine-tuning with tao as 10
+(dncnn_stop) [gr719@ee-beholder0 dncnn_stop]$ python -u train.py --model DnCNN_DS --outf logs/dncnn_b_ds_l20_all_train_tune_tao10 \
+> --train_all True --batchSize 256 --lr 1e-4 --epoch 50 \
+> --tao 10 --pretrain_path logs/dncnn_b_l20_all_train_n55/net.pth \
+> --pretrain True
+In total, using 0 GPUs
+Namespace(batchSize=256, data_folder='./', epochs=50, freeze=False, lr=0.0001, maxnoise=55, maxtao=10, milestone=25, mintao=0.0001, mode='B', model='DnCNN_DS', noiseL=35, num_of_layers=20, num_out=5, num_workers=12, outf='logs/dncnn_b_ds_l20_all_train_tune_tao10', preprocess=False, pretrain=True, pretrain_path='logs/dncnn_b_l20_all_train_n55/net.pth', random_seed=0, restart=False, tao=10.0, taoepoch=5, taostep=10, train_all=True, val_noiseL=35, val_ratio=0)
+Loading dataset ...
+
+Traceback (most recent call last):
+  File "train.py", line 247, in <module>
+    main()
+  File "train.py", line 62, in main
+    dataset_train = Dataset(train=True, data_folder=opt.data_folder)
+  File "/home/gr719/Downloads/Imperial2021/8.Learning to Stop/l2stop-master/dncnn_stop/dataset.py", line 80, in __init__
+    h5f = h5py.File(os.path.join(self.data_folder, 'train.h5'), 'r')
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/h5py/_hl/files.py", line 394, in __init__
+    swmr=swmr)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/h5py/_hl/files.py", line 170, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5f.pyx", line 85, in h5py.h5f.open
+OSError: Unable to open file (unable to open file: name = './train.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+(dncnn_stop) [gr719@ee-beholder0 dncnn_stop]$ 
+(dncnn_stop) [gr719@ee-beholder0 dncnn_stop]$ # policy training, this is in test phase
+(dncnn_stop) [gr719@ee-beholder0 dncnn_stop]$ python train_stop_kl.py \
+> --outf logs/dncnn_b_ds_l20_all_train_tune_tao10 --restart True -phase test
+Namespace(T_max=50, batch_size=16, data_folder='./', iters_per_epoch=10, iters_per_eval=100, kl_type='forward', learning_rate=0.0001, loss_temp=1, loss_type='mle', loss_weight=0.5, max_temp=0, min_temp=0, num_epochs=100, num_of_layers=20, num_output=10, num_workers=12, outf='logs/dncnn_b_ds_l20_all_train_tune_tao10', phase='test', policy_type='sequential', post_dim=8, restart=True, seed=0, share=True, stochastic=True, temp=5, untied=False, val_policy_dump=None, val_ratio=0.2, weight_decay=1e-05)
+In total, using 0 GPUs
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+Traceback (most recent call last):
+  File "train_stop_kl.py", line 213, in <module>
+    policy_training()
+  File "train_stop_kl.py", line 38, in policy_training
+    model = torch.nn.DataParallel(model).cuda()
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 305, in cuda
+    return self._apply(lambda t: t.cuda(device))
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 202, in _apply
+    module._apply(fn)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 202, in _apply
+    module._apply(fn)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 202, in _apply
+    module._apply(fn)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 224, in _apply
+    param_applied = fn(param)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 305, in <lambda>
+    return self._apply(lambda t: t.cuda(device))
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/cuda/__init__.py", line 192, in _lazy_init
+    _check_driver()
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/cuda/__init__.py", line 102, in _check_driver
+    http://www.nvidia.com/Download/index.aspx""")
+AssertionError: 
+Found no NVIDIA driver on your system. Please check that you
+have an NVIDIA GPU and installed a driver from
+http://www.nvidia.com/Download/index.aspx
+(dncnn_stop) [gr719@ee-beholder0 dncnn_stop]$ 
+(dncnn_stop) [gr719@ee-beholder0 dncnn_stop]$ # joint training, this is in test phase
+(dncnn_stop) [gr719@ee-beholder0 dncnn_stop]$ python train_stop_joint.py \
+> --outf logs/dncnn_b_ds_l20_all_train_tune_tao10 --restart True -phase test
+Namespace(T_max=50, batch_size=16, data_folder='./', iters_per_epoch=10, iters_per_eval=100, kl_type='forward', learning_rate=0.0001, loss_temp=1, loss_type='mle', loss_weight=0.5, max_temp=0, min_temp=0, num_epochs=100, num_of_layers=20, num_output=10, num_workers=12, outf='logs/dncnn_b_ds_l20_all_train_tune_tao10', phase='test', policy_type='sequential', post_dim=8, restart=True, seed=0, share=True, stochastic=True, temp=5, untied=False, val_policy_dump=None, val_ratio=0.2, weight_decay=1e-05)
+In total, using 0 GPUs
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+Traceback (most recent call last):
+  File "train_stop_joint.py", line 242, in <module>
+    policy_training()
+  File "train_stop_joint.py", line 36, in policy_training
+    model = model.cuda()
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 305, in cuda
+    return self._apply(lambda t: t.cuda(device))
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 202, in _apply
+    module._apply(fn)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 202, in _apply
+    module._apply(fn)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 202, in _apply
+    module._apply(fn)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 224, in _apply
+    param_applied = fn(param)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 305, in <lambda>
+    return self._apply(lambda t: t.cuda(device))
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/cuda/__init__.py", line 192, in _lazy_init
+    _check_driver()
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/cuda/__init__.py", line 102, in _check_driver
+    http://www.nvidia.com/Download/index.aspx""")
+AssertionError: 
+Found no NVIDIA driver on your system. Please check that you
+have an NVIDIA GPU and installed a driver from
+http://www.nvidia.com/Download/index.aspx
+(dncnn_stop) [gr719@ee-beholder0 dncnn_stop]$ 
+(dncnn_stop) [gr719@ee-beholder0 dncnn_stop]$ # Quantitative evaluation
+(dncnn_stop) [gr719@ee-beholder0 dncnn_stop]$ for noise in 35 45 55 65 75; do
+> python -u test.py --test_data Set68  --num_of_layers 20 \
+> 
+data/                policy_args.py       train_stop_joint.py
+dataset.py           __pycache__/         train_stop_kl.py
+environment.yml      test.py              utils.py
+final_model_cmd.sh   trainer.py           
+models.py            train.py             
+> --logdir logs/dncnn_b_ds_l20_all_train_tune_tao10 --model DnCNN_DS \
+> 
+data/                policy_args.py       train_stop_joint.py
+dataset.py           __pycache__/         train_stop_kl.py
+environment.yml      test.py              utils.py
+final_model_cmd.sh   trainer.py           
+models.py            train.py             
+> --test_noiseL ${noise}
+> done
+Loading model ...
+
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+Traceback (most recent call last):
+  File "test.py", line 135, in <module>
+    main()
+  File "test.py", line 47, in main
+    model = nn.DataParallel(net).cuda()
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 305, in cuda
+    return self._apply(lambda t: t.cuda(device))
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 202, in _apply
+    module._apply(fn)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 202, in _apply
+    module._apply(fn)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 202, in _apply
+    module._apply(fn)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 224, in _apply
+    param_applied = fn(param)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 305, in <lambda>
+    return self._apply(lambda t: t.cuda(device))
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/cuda/__init__.py", line 192, in _lazy_init
+    _check_driver()
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/cuda/__init__.py", line 102, in _check_driver
+    http://www.nvidia.com/Download/index.aspx""")
+AssertionError: 
+Found no NVIDIA driver on your system. Please check that you
+have an NVIDIA GPU and installed a driver from
+http://www.nvidia.com/Download/index.aspx
+Loading model ...
+
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+Traceback (most recent call last):
+  File "test.py", line 135, in <module>
+    main()
+  File "test.py", line 47, in main
+    model = nn.DataParallel(net).cuda()
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 305, in cuda
+    return self._apply(lambda t: t.cuda(device))
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 202, in _apply
+    module._apply(fn)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 202, in _apply
+    module._apply(fn)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 202, in _apply
+    module._apply(fn)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 224, in _apply
+    param_applied = fn(param)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 305, in <lambda>
+    return self._apply(lambda t: t.cuda(device))
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/cuda/__init__.py", line 192, in _lazy_init
+    _check_driver()
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/cuda/__init__.py", line 102, in _check_driver
+    http://www.nvidia.com/Download/index.aspx""")
+AssertionError: 
+Found no NVIDIA driver on your system. Please check that you
+have an NVIDIA GPU and installed a driver from
+http://www.nvidia.com/Download/index.aspx
+Loading model ...
+
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+Traceback (most recent call last):
+  File "test.py", line 135, in <module>
+    main()
+  File "test.py", line 47, in main
+    model = nn.DataParallel(net).cuda()
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 305, in cuda
+    return self._apply(lambda t: t.cuda(device))
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 202, in _apply
+    module._apply(fn)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 202, in _apply
+    module._apply(fn)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 202, in _apply
+    module._apply(fn)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 224, in _apply
+    param_applied = fn(param)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 305, in <lambda>
+    return self._apply(lambda t: t.cuda(device))
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/cuda/__init__.py", line 192, in _lazy_init
+    _check_driver()
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/cuda/__init__.py", line 102, in _check_driver
+    http://www.nvidia.com/Download/index.aspx""")
+AssertionError: 
+Found no NVIDIA driver on your system. Please check that you
+have an NVIDIA GPU and installed a driver from
+http://www.nvidia.com/Download/index.aspx
+Loading model ...
+
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+Traceback (most recent call last):
+  File "test.py", line 135, in <module>
+    main()
+  File "test.py", line 47, in main
+    model = nn.DataParallel(net).cuda()
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 305, in cuda
+    return self._apply(lambda t: t.cuda(device))
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 202, in _apply
+    module._apply(fn)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 202, in _apply
+    module._apply(fn)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 202, in _apply
+    module._apply(fn)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 224, in _apply
+    param_applied = fn(param)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 305, in <lambda>
+    return self._apply(lambda t: t.cuda(device))
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/cuda/__init__.py", line 192, in _lazy_init
+    _check_driver()
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/cuda/__init__.py", line 102, in _check_driver
+    http://www.nvidia.com/Download/index.aspx""")
+AssertionError: 
+Found no NVIDIA driver on your system. Please check that you
+have an NVIDIA GPU and installed a driver from
+http://www.nvidia.com/Download/index.aspx
+Loading model ...
+
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+Traceback (most recent call last):
+  File "test.py", line 135, in <module>
+    main()
+  File "test.py", line 47, in main
+    model = nn.DataParallel(net).cuda()
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 305, in cuda
+    return self._apply(lambda t: t.cuda(device))
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 202, in _apply
+    module._apply(fn)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 202, in _apply
+    module._apply(fn)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 202, in _apply
+    module._apply(fn)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 224, in _apply
+    param_applied = fn(param)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 305, in <lambda>
+    return self._apply(lambda t: t.cuda(device))
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/cuda/__init__.py", line 192, in _lazy_init
+    _check_driver()
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/cuda/__init__.py", line 102, in _check_driver
+    http://www.nvidia.com/Download/index.aspx""")
+AssertionError: 
+Found no NVIDIA driver on your system. Please check that you
+have an NVIDIA GPU and installed a driver from
+http://www.nvidia.com/Download/index.aspx
+(dncnn_stop) [gr719@ee-beholder0 dncnn_stop]$ 
+(dncnn_stop) [gr719@ee-beholder0 dncnn_stop]$ # generate the denoised images
+(dncnn_stop) [gr719@ee-beholder0 dncnn_stop]$ for noise in 45 65;do
+> python -u test.py --test_data Set68  --num_of_layers 20 \
+> 
+data/                policy_args.py       train_stop_joint.py
+dataset.py           __pycache__/         train_stop_kl.py
+environment.yml      test.py              utils.py
+final_model_cmd.sh   trainer.py           
+models.py            train.py             
+> --logdir logs/dncnn_b_ds_l20_all_train_tune_tao10 --model DnCNN_DS \
+> 
+data/                policy_args.py       train_stop_joint.py
+dataset.py           __pycache__/         train_stop_kl.py
+environment.yml      test.py              utils.py
+final_model_cmd.sh   trainer.py           
+models.py            train.py             
+> --test_noiseL ${noise} --save_img True --img_folder ./out_imgs/dncnn_stop_${noise}
+> done
+Loading model ...
+
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+Traceback (most recent call last):
+  File "test.py", line 135, in <module>
+    main()
+  File "test.py", line 47, in main
+    model = nn.DataParallel(net).cuda()
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 305, in cuda
+    return self._apply(lambda t: t.cuda(device))
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 202, in _apply
+    module._apply(fn)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 202, in _apply
+    module._apply(fn)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 202, in _apply
+    module._apply(fn)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 224, in _apply
+    param_applied = fn(param)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 305, in <lambda>
+    return self._apply(lambda t: t.cuda(device))
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/cuda/__init__.py", line 192, in _lazy_init
+    _check_driver()
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/cuda/__init__.py", line 102, in _check_driver
+    http://www.nvidia.com/Download/index.aspx""")
+AssertionError: 
+Found no NVIDIA driver on your system. Please check that you
+have an NVIDIA GPU and installed a driver from
+http://www.nvidia.com/Download/index.aspx
+Loading model ...
+
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+Traceback (most recent call last):
+  File "test.py", line 135, in <module>
+    main()
+  File "test.py", line 47, in main
+    model = nn.DataParallel(net).cuda()
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 305, in cuda
+    return self._apply(lambda t: t.cuda(device))
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 202, in _apply
+    module._apply(fn)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 202, in _apply
+    module._apply(fn)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 202, in _apply
+    module._apply(fn)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 224, in _apply
+    param_applied = fn(param)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 305, in <lambda>
+    return self._apply(lambda t: t.cuda(device))
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/cuda/__init__.py", line 192, in _lazy_init
+    _check_driver()
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/cuda/__init__.py", line 102, in _check_driver
+    http://www.nvidia.com/Download/index.aspx""")
+AssertionError: 
+Found no NVIDIA driver on your system. Please check that you
+have an NVIDIA GPU and installed a driver from
+http://www.nvidia.com/Download/index.aspx
+(dncnn_stop) [gr719@ee-beholder0 dncnn_stop]$ # generate the denoised images
+(dncnn_stop) [gr719@ee-beholder0 dncnn_stop]$ # pretrain the model
+(dncnn_stop) [gr719@ee-beholder0 dncnn_stop]$ python -u train.py --model DnCNN --outf logs/dncnn_b_l20_all_train_n55 \
+> --num_of_layers 20 --batchSize 256 --epoch 50
+In total, using 0 GPUs
+Namespace(batchSize=256, data_folder='./', epochs=50, freeze=False, lr=0.001, maxnoise=55, maxtao=10, milestone=25, mintao=0.0001, mode='B', model='DnCNN', noiseL=35, num_of_layers=20, num_out=5, num_workers=12, outf='logs/dncnn_b_l20_all_train_n55', preprocess=False, pretrain=False, pretrain_path='', random_seed=0, restart=False, tao=1, taoepoch=5, taostep=10, train_all=False, val_noiseL=35, val_ratio=0)
+Loading dataset ...
+
+Traceback (most recent call last):
+  File "train.py", line 247, in <module>
+    main()
+  File "train.py", line 62, in main
+    dataset_train = Dataset(train=True, data_folder=opt.data_folder)
+  File "/home/gr719/Downloads/Imperial2021/8.Learning to Stop/l2stop-master/dncnn_stop/dataset.py", line 80, in __init__
+    h5f = h5py.File(os.path.join(self.data_folder, 'train.h5'), 'r')
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/h5py/_hl/files.py", line 394, in __init__
+    swmr=swmr)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/h5py/_hl/files.py", line 170, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5f.pyx", line 85, in h5py.h5f.open
+OSError: Unable to open file (unable to open file: name = './train.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+(dncnn_stop) [gr719@ee-beholder0 dncnn_stop]$ 
+(dncnn_stop) [gr719@ee-beholder0 dncnn_stop]$ # fine-tuning with tao as 10
+(dncnn_stop) [gr719@ee-beholder0 dncnn_stop]$ python -u train.py --model DnCNN_DS --outf logs/dncnn_b_ds_l20_all_train_tune_tao10 \
+> --train_all True --batchSize 256 --lr 1e-4 --epoch 50 \
+> --tao 10 --pretrain_path logs/dncnn_b_l20_all_train_n55/net.pth \
+> --pretrain True
+In total, using 0 GPUs
+Namespace(batchSize=256, data_folder='./', epochs=50, freeze=False, lr=0.0001, maxnoise=55, maxtao=10, milestone=25, mintao=0.0001, mode='B', model='DnCNN_DS', noiseL=35, num_of_layers=20, num_out=5, num_workers=12, outf='logs/dncnn_b_ds_l20_all_train_tune_tao10', preprocess=False, pretrain=True, pretrain_path='logs/dncnn_b_l20_all_train_n55/net.pth', random_seed=0, restart=False, tao=10.0, taoepoch=5, taostep=10, train_all=True, val_noiseL=35, val_ratio=0)
+Loading dataset ...
+
+Traceback (most recent call last):
+  File "train.py", line 247, in <module>
+    main()
+  File "train.py", line 62, in main
+    dataset_train = Dataset(train=True, data_folder=opt.data_folder)
+  File "/home/gr719/Downloads/Imperial2021/8.Learning to Stop/l2stop-master/dncnn_stop/dataset.py", line 80, in __init__
+    h5f = h5py.File(os.path.join(self.data_folder, 'train.h5'), 'r')
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/h5py/_hl/files.py", line 394, in __init__
+    swmr=swmr)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/h5py/_hl/files.py", line 170, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5f.pyx", line 85, in h5py.h5f.open
+OSError: Unable to open file (unable to open file: name = './train.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+(dncnn_stop) [gr719@ee-beholder0 dncnn_stop]$ 
+(dncnn_stop) [gr719@ee-beholder0 dncnn_stop]$ # policy training, this is in test phase
+(dncnn_stop) [gr719@ee-beholder0 dncnn_stop]$ python train_stop_kl.py \
+> --outf logs/dncnn_b_ds_l20_all_train_tune_tao10 --restart True -phase test
+Namespace(T_max=50, batch_size=16, data_folder='./', iters_per_epoch=10, iters_per_eval=100, kl_type='forward', learning_rate=0.0001, loss_temp=1, loss_type='mle', loss_weight=0.5, max_temp=0, min_temp=0, num_epochs=100, num_of_layers=20, num_output=10, num_workers=12, outf='logs/dncnn_b_ds_l20_all_train_tune_tao10', phase='test', policy_type='sequential', post_dim=8, restart=True, seed=0, share=True, stochastic=True, temp=5, untied=False, val_policy_dump=None, val_ratio=0.2, weight_decay=1e-05)
+In total, using 0 GPUs
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+Traceback (most recent call last):
+  File "train_stop_kl.py", line 213, in <module>
+    policy_training()
+  File "train_stop_kl.py", line 38, in policy_training
+    model = torch.nn.DataParallel(model).cuda()
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 305, in cuda
+    return self._apply(lambda t: t.cuda(device))
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 202, in _apply
+    module._apply(fn)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 202, in _apply
+    module._apply(fn)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 202, in _apply
+    module._apply(fn)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 224, in _apply
+    param_applied = fn(param)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 305, in <lambda>
+    return self._apply(lambda t: t.cuda(device))
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/cuda/__init__.py", line 192, in _lazy_init
+    _check_driver()
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/cuda/__init__.py", line 102, in _check_driver
+    http://www.nvidia.com/Download/index.aspx""")
+AssertionError: 
+Found no NVIDIA driver on your system. Please check that you
+have an NVIDIA GPU and installed a driver from
+http://www.nvidia.com/Download/index.aspx
+(dncnn_stop) [gr719@ee-beholder0 dncnn_stop]$ 
+(dncnn_stop) [gr719@ee-beholder0 dncnn_stop]$ # joint training, this is in test phase
+(dncnn_stop) [gr719@ee-beholder0 dncnn_stop]$ python train_stop_joint.py \
+> --outf logs/dncnn_b_ds_l20_all_train_tune_tao10 --restart True -phase test
+Namespace(T_max=50, batch_size=16, data_folder='./', iters_per_epoch=10, iters_per_eval=100, kl_type='forward', learning_rate=0.0001, loss_temp=1, loss_type='mle', loss_weight=0.5, max_temp=0, min_temp=0, num_epochs=100, num_of_layers=20, num_output=10, num_workers=12, outf='logs/dncnn_b_ds_l20_all_train_tune_tao10', phase='test', policy_type='sequential', post_dim=8, restart=True, seed=0, share=True, stochastic=True, temp=5, untied=False, val_policy_dump=None, val_ratio=0.2, weight_decay=1e-05)
+In total, using 0 GPUs
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+Traceback (most recent call last):
+  File "train_stop_joint.py", line 242, in <module>
+    policy_training()
+  File "train_stop_joint.py", line 36, in policy_training
+    model = model.cuda()
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 305, in cuda
+    return self._apply(lambda t: t.cuda(device))
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 202, in _apply
+    module._apply(fn)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 202, in _apply
+    module._apply(fn)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 202, in _apply
+    module._apply(fn)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 224, in _apply
+    param_applied = fn(param)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 305, in <lambda>
+    return self._apply(lambda t: t.cuda(device))
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/cuda/__init__.py", line 192, in _lazy_init
+    _check_driver()
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/cuda/__init__.py", line 102, in _check_driver
+    http://www.nvidia.com/Download/index.aspx""")
+AssertionError: 
+Found no NVIDIA driver on your system. Please check that you
+have an NVIDIA GPU and installed a driver from
+http://www.nvidia.com/Download/index.aspx
+(dncnn_stop) [gr719@ee-beholder0 dncnn_stop]$ 
+(dncnn_stop) [gr719@ee-beholder0 dncnn_stop]$ # Quantitative evaluation
+(dncnn_stop) [gr719@ee-beholder0 dncnn_stop]$ for noise in 35 45 55 65 75; do
+> python -u test.py --test_data Set68  --num_of_layers 20 \
+> 
+data/                policy_args.py       train_stop_joint.py
+dataset.py           __pycache__/         train_stop_kl.py
+environment.yml      test.py              utils.py
+final_model_cmd.sh   trainer.py           
+models.py            train.py             
+> --logdir logs/dncnn_b_ds_l20_all_train_tune_tao10 --model DnCNN_DS \
+> 
+data/                policy_args.py       train_stop_joint.py
+dataset.py           __pycache__/         train_stop_kl.py
+environment.yml      test.py              utils.py
+final_model_cmd.sh   trainer.py           
+models.py            train.py             
+> --test_noiseL ${noise}
+> done
+Loading model ...
+
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+Traceback (most recent call last):
+  File "test.py", line 135, in <module>
+    main()
+  File "test.py", line 47, in main
+    model = nn.DataParallel(net).cuda()
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 305, in cuda
+    return self._apply(lambda t: t.cuda(device))
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 202, in _apply
+    module._apply(fn)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 202, in _apply
+    module._apply(fn)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 202, in _apply
+    module._apply(fn)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 224, in _apply
+    param_applied = fn(param)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 305, in <lambda>
+    return self._apply(lambda t: t.cuda(device))
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/cuda/__init__.py", line 192, in _lazy_init
+    _check_driver()
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/cuda/__init__.py", line 102, in _check_driver
+    http://www.nvidia.com/Download/index.aspx""")
+AssertionError: 
+Found no NVIDIA driver on your system. Please check that you
+have an NVIDIA GPU and installed a driver from
+http://www.nvidia.com/Download/index.aspx
+Loading model ...
+
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+Traceback (most recent call last):
+  File "test.py", line 135, in <module>
+    main()
+  File "test.py", line 47, in main
+    model = nn.DataParallel(net).cuda()
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 305, in cuda
+    return self._apply(lambda t: t.cuda(device))
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 202, in _apply
+    module._apply(fn)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 202, in _apply
+    module._apply(fn)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 202, in _apply
+    module._apply(fn)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 224, in _apply
+    param_applied = fn(param)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 305, in <lambda>
+    return self._apply(lambda t: t.cuda(device))
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/cuda/__init__.py", line 192, in _lazy_init
+    _check_driver()
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/cuda/__init__.py", line 102, in _check_driver
+    http://www.nvidia.com/Download/index.aspx""")
+AssertionError: 
+Found no NVIDIA driver on your system. Please check that you
+have an NVIDIA GPU and installed a driver from
+http://www.nvidia.com/Download/index.aspx
+Loading model ...
+
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+Traceback (most recent call last):
+  File "test.py", line 135, in <module>
+    main()
+  File "test.py", line 47, in main
+    model = nn.DataParallel(net).cuda()
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 305, in cuda
+    return self._apply(lambda t: t.cuda(device))
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 202, in _apply
+    module._apply(fn)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 202, in _apply
+    module._apply(fn)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 202, in _apply
+    module._apply(fn)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 224, in _apply
+    param_applied = fn(param)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 305, in <lambda>
+    return self._apply(lambda t: t.cuda(device))
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/cuda/__init__.py", line 192, in _lazy_init
+    _check_driver()
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/cuda/__init__.py", line 102, in _check_driver
+    http://www.nvidia.com/Download/index.aspx""")
+AssertionError: 
+Found no NVIDIA driver on your system. Please check that you
+have an NVIDIA GPU and installed a driver from
+http://www.nvidia.com/Download/index.aspx
+Loading model ...
+
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+Traceback (most recent call last):
+  File "test.py", line 135, in <module>
+    main()
+  File "test.py", line 47, in main
+    model = nn.DataParallel(net).cuda()
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 305, in cuda
+    return self._apply(lambda t: t.cuda(device))
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 202, in _apply
+    module._apply(fn)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 202, in _apply
+    module._apply(fn)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 202, in _apply
+    module._apply(fn)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 224, in _apply
+    param_applied = fn(param)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 305, in <lambda>
+    return self._apply(lambda t: t.cuda(device))
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/cuda/__init__.py", line 192, in _lazy_init
+    _check_driver()
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/cuda/__init__.py", line 102, in _check_driver
+    http://www.nvidia.com/Download/index.aspx""")
+AssertionError: 
+Found no NVIDIA driver on your system. Please check that you
+have an NVIDIA GPU and installed a driver from
+http://www.nvidia.com/Download/index.aspx
+Loading model ...
+
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+Traceback (most recent call last):
+  File "test.py", line 135, in <module>
+    main()
+  File "test.py", line 47, in main
+    model = nn.DataParallel(net).cuda()
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 305, in cuda
+    return self._apply(lambda t: t.cuda(device))
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 202, in _apply
+    module._apply(fn)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 202, in _apply
+    module._apply(fn)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 202, in _apply
+    module._apply(fn)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 224, in _apply
+    param_applied = fn(param)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 305, in <lambda>
+    return self._apply(lambda t: t.cuda(device))
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/cuda/__init__.py", line 192, in _lazy_init
+    _check_driver()
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/cuda/__init__.py", line 102, in _check_driver
+    http://www.nvidia.com/Download/index.aspx""")
+AssertionError: 
+Found no NVIDIA driver on your system. Please check that you
+have an NVIDIA GPU and installed a driver from
+http://www.nvidia.com/Download/index.aspx
+(dncnn_stop) [gr719@ee-beholder0 dncnn_stop]$ 
+(dncnn_stop) [gr719@ee-beholder0 dncnn_stop]$ # generate the denoised images
+(dncnn_stop) [gr719@ee-beholder0 dncnn_stop]$ for noise in 45 65;do
+> python -u test.py --test_data Set68  --num_of_layers 20 \
+> 
+data/                policy_args.py       train_stop_joint.py
+dataset.py           __pycache__/         train_stop_kl.py
+environment.yml      test.py              utils.py
+final_model_cmd.sh   trainer.py           
+models.py            train.py             
+> --logdir logs/dncnn_b_ds_l20_all_train_tune_tao10 --model DnCNN_DS \
+> 
+data/                policy_args.py       train_stop_joint.py
+dataset.py           __pycache__/         train_stop_kl.py
+environment.yml      test.py              utils.py
+final_model_cmd.sh   trainer.py           
+models.py            train.py             
+> --test_noiseL ${noise} --save_img True --img_folder ./out_imgs/dncnn_stop_${noise}
+> done
+Loading model ...
+
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+Traceback (most recent call last):
+  File "test.py", line 135, in <module>
+    main()
+  File "test.py", line 47, in main
+    model = nn.DataParallel(net).cuda()
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 305, in cuda
+    return self._apply(lambda t: t.cuda(device))
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 202, in _apply
+    module._apply(fn)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 202, in _apply
+    module._apply(fn)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 202, in _apply
+    module._apply(fn)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 224, in _apply
+    param_applied = fn(param)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 305, in <lambda>
+    return self._apply(lambda t: t.cuda(device))
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/cuda/__init__.py", line 192, in _lazy_init
+    _check_driver()
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/cuda/__init__.py", line 102, in _check_driver
+    http://www.nvidia.com/Download/index.aspx""")
+AssertionError: 
+Found no NVIDIA driver on your system. Please check that you
+have an NVIDIA GPU and installed a driver from
+http://www.nvidia.com/Download/index.aspx
+Loading model ...
+
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+Traceback (most recent call last):
+  File "test.py", line 135, in <module>
+    main()
+  File "test.py", line 47, in main
+    model = nn.DataParallel(net).cuda()
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 305, in cuda
+    return self._apply(lambda t: t.cuda(device))
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 202, in _apply
+    module._apply(fn)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 202, in _apply
+    module._apply(fn)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 202, in _apply
+    module._apply(fn)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 224, in _apply
+    param_applied = fn(param)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/nn/modules/module.py", line 305, in <lambda>
+    return self._apply(lambda t: t.cuda(device))
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/cuda/__init__.py", line 192, in _lazy_init
+    _check_driver()
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/torch/cuda/__init__.py", line 102, in _check_driver
+    http://www.nvidia.com/Download/index.aspx""")
+AssertionError: 
+Found no NVIDIA driver on your system. Please check that you
+have an NVIDIA GPU and installed a driver from
+http://www.nvidia.com/Download/index.aspx
+(dncnn_stop) [gr719@ee-beholder0 dncnn_stop]$ python -u train.py --model DnCNN --outf logs/dncnn_b_l20_all_train_n55 \
+> --num_of_layers 20 --batchSize 256 --epoch 50
+In total, using 0 GPUs
+Namespace(batchSize=256, data_folder='./', epochs=50, freeze=False, lr=0.001, maxnoise=55, maxtao=10, milestone=25, mintao=0.0001, mode='B', model='DnCNN', noiseL=35, num_of_layers=20, num_out=5, num_workers=12, outf='logs/dncnn_b_l20_all_train_n55', preprocess=False, pretrain=False, pretrain_path='', random_seed=0, restart=False, tao=1, taoepoch=5, taostep=10, train_all=False, val_noiseL=35, val_ratio=0)
+Loading dataset ...
+
+Traceback (most recent call last):
+  File "train.py", line 247, in <module>
+    main()
+  File "train.py", line 62, in main
+    dataset_train = Dataset(train=True, data_folder=opt.data_folder)
+  File "/home/gr719/Downloads/Imperial2021/8.Learning to Stop/l2stop-master/dncnn_stop/dataset.py", line 80, in __init__
+    h5f = h5py.File(os.path.join(self.data_folder, 'train.h5'), 'r')
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/h5py/_hl/files.py", line 394, in __init__
+    swmr=swmr)
+  File "/home/gr719/anaconda3/envs/dncnn_stop/lib/python3.7/site-packages/h5py/_hl/files.py", line 170, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5f.pyx", line 85, in h5py.h5f.open
+OSError: Unable to open file (unable to open file: name = './train.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+(dncnn_stop) [gr719@ee-beholder0 dncnn_stop]$ 
+

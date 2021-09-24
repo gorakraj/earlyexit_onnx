@@ -1,0 +1,33 @@
+(base) [gr719@ee-beholder0 ~]$ cd Downloads/Imperial2021/9.Triple-Wins/
+(base) [gr719@ee-beholder0 9.Triple-Wins]$ conda activate env_9
+(env_9) [gr719@ee-beholder0 9.Triple-Wins]$ conda deactivate
+(base) [gr719@ee-beholder0 9.Triple-Wins]$ cd ..
+(base) [gr719@ee-beholder0 Imperial2021]$ cd 8.Learning\ to\ Stop/
+(base) [gr719@ee-beholder0 8.Learning to Stop]$ conda activate env_8
+(env_8) [gr719@ee-beholder0 8.Learning to Stop]$ cd l2stop-master/lista_stop
+(env_8) [gr719@ee-beholder0 lista_stop]$ pip install -e .
+/mnt/applications/python/3.5.1/bin/python3.5: error while loading shared libraries: libpython3.5m.so.1.0: cannot open shared object file: No such file or directory
+(env_8) [gr719@ee-beholder0 lista_stop]$ pip install -e .
+/mnt/applications/python/3.5.1/bin/python3.5: error while loading shared libraries: libpython3.5m.so.1.0: cannot open shared object file: No such file or directory
+(env_8) [gr719@ee-beholder0 lista_stop]$ conda activate env_8
+^[[A(env_8) [gr719@ee-beholder0 lista_stop]$ conda deactivate
+(base) [gr719@ee-beholder0 lista_stop]$ pip install -e .
+ERROR: File "setup.py" not found. Directory cannot be installed in editable mode: /home/gr719/Downloads/Imperial2021/8.Learning to Stop/l2stop-master/lista_stop
+(base) [gr719@ee-beholder0 lista_stop]$ cd ..
+(base) [gr719@ee-beholder0 l2stop-master]$ conda activate env_8
+(env_8) [gr719@ee-beholder0 l2stop-master]$ pip install -e .
+/mnt/applications/python/3.5.1/bin/python3.5: error while loading shared libraries: libpython3.5m.so.1.0: cannot open shared object file: No such file or directory
+(env_8) [gr719@ee-beholder0 l2stop-master]$ conda deactivate
+(base) [gr719@ee-beholder0 l2stop-master]$ pip install -e .
+Obtaining file:///home/gr719/Downloads/Imperial2021/8.Learning%20to%20Stop/l2stop-master
+Requirement already satisfied: torch in /home/gr719/anaconda3/lib/python3.8/site-packages (from lista-stop==0.0.0) (1.9.0)
+Requirement already satisfied: typing-extensions in /home/gr719/anaconda3/lib/python3.8/site-packages (from torch->lista-stop==0.0.0) (3.7.4.3)
+Installing collected packages: lista-stop
+  Attempting uninstall: lista-stop
+    Found existing installation: lista-stop 0.0.0
+    Uninstalling lista-stop-0.0.0:
+      Successfully uninstalled lista-stop-0.0.0
+  Running setup.py develop for lista-stop
+Successfully installed lista-stop
+(base) [gr719@ee-beholder0 l2stop-master]$ 
+
