@@ -35,7 +35,7 @@ Only 4 papers remained (1,6,8,9) that had an available codebase and which layers
 -------------------
 **Current Status (for future users):**
 
-The project goal was to convert these codebases into .onnx formats. At the moment papers 6 and 9 have .onnx files and the netwrok schematic can be viewed using the Netron viewer (https://github.com/lutzroeder/netron).
+The project goal was to convert these codebases into .onnx formats. At the moment papers 6 and 9 have .onnx files and the network schematic can be viewed using the Netron viewer (https://github.com/lutzroeder/netron).
   
 The onnx export for paper 1 is nearly complete - there are just some parts of msdnet that need to be adapted for it to work. Error messages will be included as well.
 
@@ -169,7 +169,7 @@ Credit:
 
 
   
-Thanks once again to Ben Biggs and George Constantinides for their guidance and support in this project. 
+Thanks once again to Ben Biggs and George Constantinides for their support and guidance in this project. 
     
 
 
